@@ -1,0 +1,464 @@
+/* Variables CSS */
+:root {
+  --background: hsl(220, 20%, 10%);
+  --foreground: hsl(220, 10%, 95%);
+  --card: hsl(220, 20%, 14%);
+  --card-foreground: hsl(220, 10%, 95%);
+  --primary: hsl(280, 100%, 65%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(180, 100%, 50%);
+  --secondary-foreground: hsl(220, 20%, 10%);
+  --muted: hsl(220, 15%, 20%);
+  --muted-foreground: hsl(220, 10%, 60%);
+  --accent: hsl(45, 100%, 60%);
+  --accent-foreground: hsl(220, 20%, 10%);
+  --border: hsl(220, 15%, 25%);
+  --input: hsl(220, 15%, 20%);
+  --radius: 0.75rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: var(--border);
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.trophy-icon {
+  font-size: 2.5rem;
+  color: var(--accent);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .header h1 {
+    font-size: 3rem;
+  }
+}
+
+.header-subtitle {
+  color: var(--muted-foreground);
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, hsl(280, 100%, 65%), hsl(320, 100%, 60%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass effect */
+.glass {
+  background: hsla(220, 20%, 14%, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid hsla(220, 15%, 25%, 0.5);
+  border-radius: 1rem;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .controls {
+    flex-direction: row;
+  }
+}
+
+/* Search Bar */
+.search-container {
+  position: relative;
+  flex: 1;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--muted-foreground);
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 3rem;
+  border-radius: 0.75rem;
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.search-input::placeholder {
+  color: var(--muted-foreground);
+}
+
+.search-input:focus {
+  outline: none;
+  ring: 2px;
+  box-shadow: 0 0 0 2px hsla(280, 100%, 65%, 0.5);
+}
+
+/* Sort Buttons */
+.sort-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sort-label {
+  color: var(--muted-foreground);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sort-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.sort-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  font-weight: 500;
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  cursor: pointer;
+}
+
+.sort-btn:hover {
+  background-color: var(--muted);
+}
+
+.sort-btn.active {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  box-shadow: 0 0 20px hsla(280, 100%, 65%, 0.5);
+}
+
+/* Table */
+.table-container {
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.streamer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.streamer-table thead tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.streamer-table th {
+  padding: 1rem;
+  text-align: left;
+  color: var(--muted-foreground);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.trophy-icon-small,
+.users-icon,
+.eye-icon {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.streamer-table tbody tr {
+  border-bottom: 1px solid hsla(220, 15%, 25%, 0.5);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.streamer-table tbody tr:hover {
+  background-color: hsla(220, 15%, 20%, 0.5);
+}
+
+.streamer-table td {
+  padding: 1rem;
+}
+
+.streamer-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.streamer-avatar {
+  font-size: 1.875rem;
+}
+
+.streamer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.streamer-pseudo {
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.streamer-categorie {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.plateforme-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.plateforme-twitch {
+  background-color: hsla(271, 81%, 56%, 0.2);
+  color: hsl(271, 81%, 56%);
+}
+
+.plateforme-youtube {
+  background-color: hsla(0, 100%, 50%, 0.2);
+  color: hsl(0, 100%, 50%);
+}
+
+.plateforme-kick {
+  background-color: hsla(120, 100%, 50%, 0.2);
+  color: hsl(120, 100%, 50%);
+}
+
+.medal {
+  font-size: 1.5rem;
+}
+
+.medal-number {
+  color: var(--muted-foreground);
+  font-weight: 700;
+}
+
+.abonnes-value {
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+.viewers-value {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.no-results {
+  text-align: center;
+  padding: 3rem;
+  color: var(--muted-foreground);
+}
+
+.results-count {
+  text-align: center;
+  color: var(--muted-foreground);
+  margin-top: 1rem;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background-color: hsla(0, 0%, 0%, 0.7);
+}
+
+.modal-content {
+  position: relative;
+  max-width: 28rem;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  animation: modalIn 0.2s ease-out;
+}
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  background: transparent;
+  border: none;
+  color: var(--muted-foreground);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close:hover {
+  background-color: var(--muted);
+}
+
+.modal-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.modal-avatar {
+  font-size: 3.75rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.modal-subtitle {
+  color: var(--muted-foreground);
+}
+
+.modal-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-card {
+  background-color: hsla(220, 15%, 20%, 0.5);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.stat-icon {
+  font-size: 1.25rem;
+  margin: 0 auto 0.5rem;
+  display: block;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.stat-value.abonnes {
+  color: var(--secondary);
+}
+
+.stat-value.viewers {
+  color: var(--accent);
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.modal-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.info-icon {
+  font-size: 1.25rem;
+  color: var(--muted-foreground);
+}
+
+.modal-description {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: hsla(220, 15%, 20%, 0.3);
+  border-radius: 0.75rem;
+}
+
+.modal-description p {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+

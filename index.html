@@ -5,9 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top Streamers - Classement</title>
     <meta name="description" content="Classement des meilleurs streamers avec statistiques et informations" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="container">
+      <!-- En-tête -->
+      <header class="header">
+        <div class="header-title">
+          <span class="trophy-icon">🏆</span>
+          <h1 class="gradient-text">Top Streamers</h1>
+        </div>
+        <p class="header-subtitle">Classement des meilleurs streamers du moment</p>
+      </header>
+
+      <!-- Barre de recherche et tri -->
+      <div class="controls">
+        <div class="search-container">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+          <input 
+            type="text" 
+            id="search-input" 
+            class="search-input" 
+            placeholder="Rechercher un streamer..."
+          />
+        </div>
+        <div class="sort-buttons">
+          <span class="sort-label">
+            <svg class="sort-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 6h18M7 12h10M11 18h2"></path>
+            </svg>
+            Trier par:
+          </span>
+          <button class="sort-btn active" data-sort="abonnes">Abonnés</button>
+          <button class="sort-btn" data-sort="viewers">Viewers</button>
+          <button class="sort-btn" data-sort="nom">Nom</button>
+        </div>
+      </div>
+
+      <!-- Tableau des streamers -->
+      <div class="glass table-container">
+        <div class="table-wrapper">
+          <table class="streamer-table">
+            <thead>
+              <tr>
+                <th>
+                  <span class="trophy-icon-small">🏆</span>
+                  Rang
+                </th>
+                <th>Streamer</th>
+                <th>Plateforme</th>
+                <th>
+                  <span class="users-icon">👥</span>
+                  Abonnés
+                </th>
+                <th>
+                  <span class="eye-icon">👁️</span>
+                  Viewers
+                </th>
+              </tr>
+            </thead>
+            <tbody id="streamer-table-body">
+              <!-- Les streamers seront insérés ici par JavaScript -->
+            </tbody>
+          </table>
+          <div id="no-results" class="no-results" style="display: none;">
+            Aucun streamer trouvé 😢
+          </div>
+        </div>
+      </div>
+
+      <!-- Compteur de résultats -->
+      <p class="results-count" id="results-count">
+        0 streamer(s) trouvé(s)
+      </p>
+    </div>
+
+    <!-- Modal de détail -->
+    <div id="modal" class="modal" style="display: none;">
+      <div class="modal-backdrop" id="modal-backdrop"></div>
+      <div class="modal-content glass">
+        <button class="modal-close" id="modal-close">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <div class="modal-header">
+          <span class="modal-avatar" id="modal-avatar"></span>
+          <h2 class="modal-title gradient-text" id="modal-title"></h2>
+          <p class="modal-subtitle" id="modal-subtitle"></p>
+        </div>
+        <div class="modal-stats">
+          <div class="stat-card">
+            <span class="stat-icon">👥</span>
+            <p class="stat-value" id="modal-abonnes"></p>
+            <p class="stat-label">Abonnés</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">👁️</span>
+            <p class="stat-value" id="modal-viewers"></p>
+            <p class="stat-label">Viewers</p>
+          </div>
+        </div>
+        <div class="modal-info">
+          <div class="info-item">
+            <span class="info-icon">📍</span>
+            <span id="modal-pays"></span>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">🏷️</span>
+            <span id="modal-categorie"></span>
+          </div>
+        </div>
+        <div class="modal-description">
+          <p id="modal-description"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
