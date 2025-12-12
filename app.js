@@ -49,7 +49,7 @@ function trierStreamers(liste) {
   return listeCopie.sort((a, b) => {
     if (tri === "abonnes") return b.abonnes - a.abonnes;
     if (tri === "viewers") return b.viewers - a.viewers;
-    if (tri === "nom") return a.pseudo.localeCompare(b.pseudo);
+    if (tri === "nom") return b.pseudo.localeCompare(a.pseudo);
     return 0;
   });
 }
@@ -60,7 +60,8 @@ function afficherStreamers() {
   const streamersTries = trierStreamers(streamersFiltres);
   const tbody = document.getElementById("streamer-table-body");
   const noResults = document.getElementById("no-results");
-  const resultsCount = document.getElementById("results-count");
+  const resultsCount = document.getElementById("result-count");
+
 
   // Mettre à jour le compteur
   resultsCount.textContent = `${streamersTries.length} streamer(s) trouvé(s)`;
