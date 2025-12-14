@@ -32,7 +32,43 @@ Ce document contient la liste des évolutions à développer pour améliorer l'a
 
 --------------------
 
-### Evolution JS #008 - Moyenne
+### Evolution JS #008 - Simple
+
+**Priorité:** Normale
+**Type:** JavaScript / HTML
+**Difficulté:** ⭐ Simple
+
+**Description:**
+Ajouter une colonne "Pays" dans le tableau des streamers pour afficher le pays d'origine de chaque streamer. La colonne peut afficher soit le nom du pays, soit le drapeau correspondant (ou les deux).
+
+**Fonctionnalités:**
+- Ajouter une nouvelle colonne "Pays" dans le tableau
+- Afficher le nom du pays ou le drapeau (emoji) pour chaque streamer
+- Positionner la colonne de manière logique dans le tableau (par exemple après "Plateforme")
+- Adapter le style CSS pour que la colonne s'intègre bien au design existant
+- Gérer l'affichage responsive (mobile/tablette/desktop)
+
+**Objectifs:**
+- Améliorer l'information affichée sur chaque streamer
+- Apprendre à ajouter une colonne dans un tableau HTML
+- Manipuler les données existantes (le champ `pays` est déjà présent dans les données)
+
+**Mise en œuvre:**
+1. **Analyse** : Identifier où ajouter la colonne dans le tableau HTML
+2. **HTML** : Ajouter l'en-tête de colonne dans le `<thead>`
+3. **JavaScript** : Modifier la fonction `afficherStreamers()` pour inclure la colonne pays
+4. **CSS** : Styliser la nouvelle colonne pour qu'elle soit cohérente avec le reste
+5. **Optionnel** : Ajouter des emojis de drapeaux pour chaque pays
+
+**Livrables attendus:**
+- Code HTML mis à jour avec la nouvelle colonne
+- Code JavaScript modifié pour afficher les pays
+- Styles CSS adaptés
+- Code testé et fonctionnel
+
+---
+
+### Evolution JS #009 - Moyenne
 
 **Priorité:** Normale
 **Type:** JavaScript
@@ -69,7 +105,7 @@ Ajouter la possibilité de trier les streamers en ordre croissant (ASC) ou décr
 
 ---
 
-### Evolution JS #009 - Moyenne
+### Evolution JS #010 - Moyenne
 
 **Priorité:** Moyenne
 **Type:** JavaScript
@@ -97,7 +133,7 @@ Ajouter une pagination ou un scroll infini sur l'affichage du tableau des stream
 
 ---
 
-### Evolution JS #010 - Complexe
+### Evolution JS #011 - Complexe
 
 **Priorité:** Moyenne
 **Type:** JavaScript
