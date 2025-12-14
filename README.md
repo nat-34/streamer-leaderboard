@@ -32,6 +32,73 @@ streamer-leaderboard/
 └── data.js         # Données des streamers (100 streamers)
 ```
 
+## Prérequis
+
+Avant de commencer cet exercice, vous devez avoir des **connaissances de base** en HTML, CSS et JavaScript. Si ce n'est pas le cas, voici des ressources pour vous former rapidement :
+
+### 📚 Mini-formation recommandée
+
+#### HTML5 - Les bases
+**Objectif** : Comprendre la structure d'une page web et les balises essentielles
+
+- **Codecademy** : [Learn HTML](https://www.codecademy.com/learn/learn-html) - Cours interactif gratuit
+- **MDN Web Docs** : [Introduction au HTML](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML) - Documentation complète
+- **OpenClassrooms** : [Apprenez à créer votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3) - Cours gratuit
+- **Concepts à maîtriser** :
+  - Structure d'un document HTML (`<!DOCTYPE>`, `<html>`, `<head>`, `<body>`)
+  - Balises de base (`<div>`, `<p>`, `<h1>` à `<h6>`, `<span>`, `<table>`, `<button>`)
+  - Attributs (`id`, `class`, `type`, `src`, `href`)
+  - Formulaires de base (`<input>`, `<form>`)
+
+#### CSS3 - Mise en forme et styles
+**Objectif** : Savoir styliser une page web et créer des mises en page
+
+- **Codecademy** : [Learn CSS](https://www.codecademy.com/learn/learn-css) - Cours interactif gratuit
+- **MDN Web Docs** : [Introduction au CSS](https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps) - Documentation complète
+- **CSS-Tricks** : [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/complete-guide-grid/) - Guide Flexbox et Grid
+- **Concepts à maîtriser** :
+  - Sélecteurs CSS (éléments, classes, IDs)
+  - Propriétés de base (`color`, `background`, `margin`, `padding`, `border`)
+  - Flexbox pour les mises en page
+  - Media queries pour le responsive design
+  - Variables CSS (`:root`, `var()`)
+
+#### JavaScript - Programmation et DOM
+**Objectif** : Manipuler le DOM et créer des interactions
+
+- **Codecademy** : [Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript) - Cours interactif gratuit
+- **MDN Web Docs** : [JavaScript First Steps](https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps) - Documentation complète
+- **JavaScript.info** : [The Modern JavaScript Tutorial](https://javascript.info/) - Tutoriel moderne et complet
+- **Concepts à maîtriser** :
+  - Variables (`let`, `const`, `var`)
+  - Fonctions (déclaration, expression, fléchées)
+  - Tableaux et objets (création, manipulation, méthodes)
+  - Manipulation du DOM (`getElementById`, `querySelector`, `addEventListener`)
+  - Événements (clics, saisie, chargement de page)
+  - Conditions et boucles (`if/else`, `for`, `forEach`)
+
+### 🎯 Vérification des prérequis
+
+Avant de commencer, assurez-vous de pouvoir :
+- [ ] Créer une structure HTML basique avec des balises sémantiques
+- [ ] Appliquer des styles CSS à des éléments HTML
+- [ ] Utiliser les sélecteurs CSS (classes, IDs)
+- [ ] Créer des variables JavaScript et des fonctions
+- [ ] Manipuler des tableaux et objets en JavaScript
+- [ ] Accéder et modifier des éléments HTML via JavaScript
+- [ ] Ajouter des event listeners sur des boutons
+
+### ⏱️ Temps estimé de formation
+
+Si vous êtes débutant complet :
+- **HTML** : 2-3 heures
+- **CSS** : 3-4 heures
+- **JavaScript** : 4-5 heures
+- **Total** : ~10-12 heures de formation
+
+Si vous avez déjà quelques notions, vous pouvez passer directement aux parties qui vous manquent.
+
+
 ## 🚀 Comment démarrer
 
 1. Ouvrez `index.html` dans votre navigateur
