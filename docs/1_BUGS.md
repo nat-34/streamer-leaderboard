@@ -20,7 +20,7 @@ Ce document contient la liste des bugs à corriger dans l'application. Chaque bu
 ### Conseils :
 - Commencez par les bugs simples
 - Testez après chaque correction
-- Utilisez les indices fournis si vous êtes bloqué
+- **Cherchez d'abord par vous-même** avant de consulter les références dans `REFERENCES.md` ou les indices dans `INDICES.md`
 - N'hésitez pas à utiliser `console.log()` pour déboguer 
 
 **Bonne chance ! 🚀** 
@@ -39,10 +39,6 @@ Le sous titre du site contient une faute de frappe
 **Symptômes:**
 - Le sous titre contient une faute d'orthographe
 
-**Fichier concerné:** `index.html`
-**Ligne approximative:** ~20
-**Indice:** Vérifiez le texte.
-
 
 ### Bug JS #002 - Simple
 
@@ -57,10 +53,6 @@ La liste des streamers est vide, l'application n'affiche rien.
 - Le tableau est vide
 - un erreur est visible dans la console
 
-**Fichier concerné:** `app.js`
-**Ligne approximative:** ~65
-**Indice:** Vérifiez la valeurs des éléments récupéré par `getElementById()`  avec `console.log()`
-
 ### Bug DATA #003 - Simple
 
 **Priorité:** Normale
@@ -72,10 +64,6 @@ Le nom du streamer `Seb` est incorrect, il s'appelle `Seb la frite`
 
 **Symptômes:**
 - Le nom du streamer est incorrect
-
-**Fichier concerné:** `data.js`
-**Ligne approximative:** ~700
-**Indice:** Vérifiez le texte.
 
 
 ### Bug CSS #004 - Simple
@@ -93,11 +81,6 @@ La modal box des streamer n'est pas visible, elle apparaît en dessous du tablea
 - On ne pas refermer la modal box.
 
 
-**Fichier concerné:** `styles.css`
-**Ligne approximative:** ~330
-**Indice:**  Activer et désactiver chaque éléments css dans la console du navigateur
-
-
 ### Bug CSS #005 - Simple
 
 **Priorité:** Haute
@@ -108,10 +91,6 @@ La modal box des streamer n'est pas visible, elle apparaît en dessous du tablea
 
 **Symptômes:**
 - il manque des colonne dans le tableau qui s'affiche
-
-**Fichier concerné:** `styles.css`
-**Ligne approximative:** ~200
-**Indice:**  Vérifier l'impact de chaque  attributs css sur l'affichage
 
 ### Bug CSS #006 - Complexe
 
@@ -133,11 +112,7 @@ Sur les écrans de taille moyenne et grande (tablettes et desktop), les contrôl
 **Symptômes:**
 - Sur mobile : affichage correct (vertical)
 - Sur tablette/desktop : devrait être horizontal mais reste vertical
-- La media query semble ne pas fonctionner  
-
-**Fichier concerné:** `styles.css`
-**Ligne approximative:** ~90
-**Indice:** Il y a un problème avec l'ordre des règles CSS et une duplication de la règle.
+- La media query semble ne pas fonctionner
 
 
 ### Bug JavaScript #007 - Moyen
@@ -152,63 +127,3 @@ Le tri par nom (ordre alphabétique) fonctionne à l'envers. Les streamers sont 
 **Symptômes:**
 - Quand on clique sur "Trier par: Nom", les streamers sont triés dans le mauvais sens
 - Le tri par abonnés et viewers fonctionne correctement
-
-**Fichier concerné:** `app.js`
-**Ligne approximative:** ~40
-**Indice:** Dans la fonction `trierStreamers`, la comparaison pour le tri par nom utilise `localeCompare` mais dans le mauvais sens. Comparez avec les autres tris (abonnés, viewers).
-
-### Evolution JS #007 - Moyenne
-
-**Priorité:** Moyenne
-**Type:** JavaScript
-**Difficulté:** ⭐⭐ Moyenne
-
-**Description:**
-Ajouter une pagination ou un scroll infini sur l'affichage du tableau des streamers. Actuellement, tous les streamers sont affichés en une seule fois, ce qui peut être problématique avec + de 100 streamers.
-
-**Objectifs:**
-- Améliorer les performances de l'application
-- Améliorer l'expérience utilisateur
-- Réduire le temps de chargement initial
-
-**Mise en œuvre:**
-1. **Analyse comparative** : Faire une analyse des avantages et inconvénients de chaque solution (pagination vs scroll infini)
-2. **Chiffrage** : Proposer une estimation du temps de développement pour chaque solution
-3. **Spécification** : Rédiger une spécification technique détaillée de la solution choisie
-4. **Implémentation** : Mettre en place l'évolution choisie
-
-**Livrables attendus:**
-- Document d'analyse comparatif (pagination vs scroll infini)
-- Estimation de charge (temps de développement)
-- Spécification technique
-- Code implémenté et testé
-
----
-
-### Evolution JS #008 - Complexe
-
-**Priorité:** Moyenne
-**Type:** JavaScript
-**Difficulté:** ⭐⭐⭐ Complexe
-
-**Description:**
-Ajouter un graphique dans la modal (popin) pour afficher l'évolution des statistiques du streamer sur les 6 derniers mois. Le graphique doit afficher l'évolution du nombre d'abonnés et de viewers dans le temps.
-
-**Fonctionnalités:**
-- Affichage d'un graphique linéaire ou en barres
-- Données sur 6 mois (évolution mensuelle)
-- Gestion du cas où aucune donnée n'est disponible (affichage par défaut avec message)
-- Design cohérent avec l'interface existante
-
-**Mise en œuvre:**
-1. **Spécification** : Rédiger une spécification détaillée de la fonctionnalité
-2. **Chiffrage** : Proposer une estimation du temps de développement
-3. **Choix de la bibliothèque** : Sélectionner une bibliothèque de graphiques (Chart.js, D3.js, etc.)
-4. **Implémentation** : Mettre en place l'évolution avec gestion des cas limites
-
-**Livrables attendus:**
-- Spécification technique détaillée
-- Estimation de charge (temps de développement)
-- Bibliothèque de graphiques sélectionnée et justifiée
-- Code implémenté avec gestion des données manquantes
-- Tests de validation
