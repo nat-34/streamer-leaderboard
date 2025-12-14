@@ -103,11 +103,14 @@ La modal box des streamer n'est pas visible, elle apparaît en dessous du tablea
 Sur les écrans de taille moyenne et grande (tablettes et desktop), les contrôles (barre de recherche et boutons de tri) ne s'affichent pas en ligne comme prévu. Ils restent empilés verticalement même sur grand écran.
 
 **Resultat existant**
+```
 [ zone de recherche ] 
 [ zone de tri ]
+```
 
 **Resultat attendu**
-[ zone de recherche ] [ zone de tri ]
+
+```[ zone de recherche ] [ zone de tri ]```
 
 **Symptômes:**
 - Sur mobile : affichage correct (vertical)
