@@ -9,7 +9,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Joueur professionnel de Fortnite, connu pour ses streams énergiques.",
-    "avatar": "🥷"
+    "avatar": "🥷",
+    "evolutionAbonnes": [
+      15572302,
+      15874551,
+      15956036,
+      16261199,
+      16901736,
+      17012832,
+      17270000,
+      17775062,
+      17636068,
+      18269028,
+      18242592,
+      18500000
+    ]
   },
   {
     "id": 2,
@@ -21,7 +35,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "France",
     "description": "YouTubeur et streamer français, créateur du GP Explorer.",
-    "avatar": "🎮"
+    "avatar": "🎮",
+    "evolutionAbonnes": [
+      6934020,
+      7168800,
+      7102075,
+      7221056,
+      7288164,
+      7603192,
+      7707051,
+      7795442,
+      7947818,
+      7961433,
+      7976003,
+      8200000
+    ]
   },
   {
     "id": 3,
@@ -33,7 +61,21 @@ const streamersData = [
     "categorie": "Just Chatting",
     "pays": "Canada",
     "description": "Streameuse populaire connue pour ses streams de discussion.",
-    "avatar": "💜"
+    "avatar": "💜",
+    "evolutionAbonnes": [
+      7964240,
+      8019798,
+      8264596,
+      8286981,
+      8406625,
+      8385387,
+      8656698,
+      8930287,
+      8780208,
+      9114374,
+      9290868,
+      9300000
+    ]
   },
   {
     "id": 4,
@@ -45,7 +87,21 @@ const streamersData = [
     "categorie": "FPS",
     "pays": "France",
     "description": "Champion du monde Call of Duty, streamer gaming.",
-    "avatar": "🎯"
+    "avatar": "🎯",
+    "evolutionAbonnes": [
+      3791242,
+      3866746,
+      3925613,
+      3983028,
+      4005335,
+      4148212,
+      4160119,
+      4296103,
+      4342850,
+      4463688,
+      4448072,
+      4500000
+    ]
   },
   {
     "id": 5,
@@ -57,7 +113,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "Canada",
     "description": "Ex-joueur pro Overwatch, connu pour ses réactions.",
-    "avatar": "⚡"
+    "avatar": "⚡",
+    "evolutionAbonnes": [
+      10396109,
+      10546536,
+      10334206,
+      10574055,
+      11028462,
+      11001802,
+      11018605,
+      11301742,
+      11567552,
+      11875126,
+      11695032,
+      12000000
+    ]
   },
   {
     "id": 6,
@@ -69,7 +139,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "France",
     "description": "Streamer français spécialisé League of Legends.",
-    "avatar": "🦁"
+    "avatar": "🦁",
+    "evolutionAbonnes": [
+      1557674,
+      1526021,
+      1559974,
+      1608711,
+      1632028,
+      1630558,
+      1684437,
+      1668058,
+      1733559,
+      1757510,
+      1805882,
+      1800000
+    ]
   },
   {
     "id": 7,
@@ -81,7 +165,21 @@ const streamersData = [
     "categorie": "Just Chatting",
     "pays": "États-Unis",
     "description": "Streameuse et entrepreneuse américaine.",
-    "avatar": "🌸"
+    "avatar": "🌸",
+    "evolutionAbonnes": [
+      5193903,
+      5338082,
+      5462934,
+      5544790,
+      5551271,
+      5762847,
+      5745903,
+      5751451,
+      5872269,
+      6052060,
+      6148773,
+      6200000
+    ]
   },
   {
     "id": 8,
@@ -93,7 +191,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "France",
     "description": "Streamer français, duo légendaire avec Sardoche.",
-    "avatar": "🐉"
+    "avatar": "🐉",
+    "evolutionAbonnes": [
+      1788919,
+      1788236,
+      1867253,
+      1853641,
+      1915964,
+      1924506,
+      1936713,
+      1984581,
+      2034483,
+      2052699,
+      2080247,
+      2100000
+    ]
   },
   {
     "id": 9,
@@ -105,7 +217,21 @@ const streamersData = [
     "categorie": "FPS",
     "pays": "Canada",
     "description": "Ancien joueur professionnel CS:GO, maintenant streamer FPS.",
-    "avatar": "🎪"
+    "avatar": "🎪",
+    "evolutionAbonnes": [
+      9359439,
+      9570738,
+      9693224,
+      9708523,
+      10099393,
+      10157380,
+      10377335,
+      10211717,
+      10409984,
+      10653908,
+      10914519,
+      11000000
+    ]
   },
   {
     "id": 10,
@@ -117,7 +243,21 @@ const streamersData = [
     "categorie": "MMORPG",
     "pays": "États-Unis",
     "description": "Streamer spécialisé dans World of Warcraft et les MMORPG.",
-    "avatar": "⚔️"
+    "avatar": "⚔️",
+    "evolutionAbonnes": [
+      2939587,
+      3051730,
+      3062861,
+      3166119,
+      3115660,
+      3220298,
+      3268769,
+      3261740,
+      3372593,
+      3399219,
+      3443576,
+      3500000
+    ]
   },
   {
     "id": 11,
@@ -129,7 +269,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "Espagne",
     "description": "Streamer espagnol très populaire, organisateur d'événements.",
-    "avatar": "🔥"
+    "avatar": "🔥",
+    "evolutionAbonnes": [
+      12778350,
+      12922701,
+      13078008,
+      13574504,
+      13826144,
+      13710812,
+      13711266,
+      14318403,
+      14214890,
+      14408813,
+      14904644,
+      15000000
+    ]
   },
   {
     "id": 12,
@@ -141,7 +295,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "Espagne",
     "description": "YouTuber et streamer espagnol, l'un des plus suivis au monde.",
-    "avatar": "👾"
+    "avatar": "👾",
+    "evolutionAbonnes": [
+      34541107,
+      35859908,
+      36167839,
+      36998508,
+      37282502,
+      37578736,
+      38617752,
+      38282434,
+      39218655,
+      39964890,
+      40860030,
+      41000000
+    ]
   },
   {
     "id": 13,
@@ -153,7 +321,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "Espagne",
     "description": "Streamer espagnol connu pour son humour et ses réactions.",
-    "avatar": "😎"
+    "avatar": "😎",
+    "evolutionAbonnes": [
+      2529588,
+      2609012,
+      2603257,
+      2716404,
+      2714277,
+      2780727,
+      2838275,
+      2846137,
+      2921282,
+      2864451,
+      2911886,
+      3000000
+    ]
   },
   {
     "id": 14,
@@ -165,7 +347,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Joueur professionnel de Fortnite, membre de TSM.",
-    "avatar": "🏹"
+    "avatar": "🏹",
+    "evolutionAbonnes": [
+      4075419,
+      4093648,
+      4189146,
+      4349387,
+      4311592,
+      4484422,
+      4423024,
+      4582521,
+      4583815,
+      4738342,
+      4752729,
+      4800000
+    ]
   },
   {
     "id": 15,
@@ -177,7 +373,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Streamer populaire connu pour ses streams de Call of Duty et Warzone.",
-    "avatar": "🎲"
+    "avatar": "🎲",
+    "evolutionAbonnes": [
+      4609244,
+      4702505,
+      4835529,
+      4802245,
+      5063251,
+      5052441,
+      5094809,
+      5171754,
+      5375726,
+      5253331,
+      5531128,
+      5500000
+    ]
   },
   {
     "id": 16,
@@ -189,7 +399,21 @@ const streamersData = [
     "categorie": "FPS",
     "pays": "États-Unis",
     "description": "Personnage iconique du streaming FPS, connu pour son style unique.",
-    "avatar": "🎭"
+    "avatar": "🎭",
+    "evolutionAbonnes": [
+      4134502,
+      4173260,
+      4191255,
+      4225671,
+      4298437,
+      4487248,
+      4541084,
+      4514409,
+      4631194,
+      4656377,
+      4818195,
+      4800000
+    ]
   },
   {
     "id": 17,
@@ -201,7 +425,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Streamer populaire, membre de 100 Thieves.",
-    "avatar": "👑"
+    "avatar": "👑",
+    "evolutionAbonnes": [
+      3630504,
+      3686126,
+      3634815,
+      3784221,
+      3808665,
+      3871196,
+      3927351,
+      3903769,
+      4015839,
+      4080553,
+      4139173,
+      4200000
+    ]
   },
   {
     "id": 18,
@@ -213,7 +451,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Streamer connu pour ses streams Among Us et ses collaborations.",
-    "avatar": "😊"
+    "avatar": "😊",
+    "evolutionAbonnes": [
+      3282845,
+      3216968,
+      3389808,
+      3327446,
+      3482104,
+      3555099,
+      3511351,
+      3544040,
+      3605207,
+      3709191,
+      3742393,
+      3800000
+    ]
   },
   {
     "id": 19,
@@ -225,7 +477,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "États-Unis",
     "description": "Streamer créatif connu pour ses événements et défis uniques.",
-    "avatar": "🎪"
+    "avatar": "🎪",
+    "evolutionAbonnes": [
+      4344355,
+      4407135,
+      4600128,
+      4684059,
+      4692545,
+      4771366,
+      4792500,
+      4916098,
+      5061896,
+      5104836,
+      5153970,
+      5200000
+    ]
   },
   {
     "id": 20,
@@ -237,7 +503,21 @@ const streamersData = [
     "categorie": "Just Chatting",
     "pays": "États-Unis",
     "description": "Streamer politique et commentateur, connu pour ses analyses.",
-    "avatar": "📺"
+    "avatar": "📺",
+    "evolutionAbonnes": [
+      2387607,
+      2440611,
+      2501210,
+      2459323,
+      2548678,
+      2525153,
+      2653585,
+      2637577,
+      2648158,
+      2754346,
+      2809169,
+      2800000
+    ]
   },
   {
     "id": 21,
@@ -249,7 +529,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "États-Unis",
     "description": "Streamer très populaire connu pour son énergie et son contenu varié.",
-    "avatar": "💥"
+    "avatar": "💥",
+    "evolutionAbonnes": [
+      10313009,
+      10344118,
+      10672208,
+      10537187,
+      11002842,
+      10882422,
+      11146890,
+      11260175,
+      11658842,
+      11691436,
+      11683048,
+      12000000
+    ]
   },
   {
     "id": 22,
@@ -261,7 +555,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Joueur professionnel de Fortnite, l'un des meilleurs au monde.",
-    "avatar": "🎯"
+    "avatar": "🎯",
+    "evolutionAbonnes": [
+      9438517,
+      9331044,
+      9627917,
+      9940049,
+      9801646,
+      10156165,
+      10165673,
+      10465637,
+      10487467,
+      10723307,
+      10714920,
+      11000000
+    ]
   },
   {
     "id": 23,
@@ -273,7 +581,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Champion du monde Fortnite World Cup 2019.",
-    "avatar": "🏆"
+    "avatar": "🏆",
+    "evolutionAbonnes": [
+      2702538,
+      2802922,
+      2792751,
+      2795141,
+      2948845,
+      2969662,
+      2981297,
+      2997825,
+      3039531,
+      3171489,
+      3133173,
+      3200000
+    ]
   },
   {
     "id": 24,
@@ -285,7 +607,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Joueur professionnel de Fortnite, connu pour ses skills.",
-    "avatar": "⚡"
+    "avatar": "⚡",
+    "evolutionAbonnes": [
+      3784865,
+      3817290,
+      3913636,
+      4052491,
+      4059629,
+      4105757,
+      4204122,
+      4324330,
+      4285539,
+      4358684,
+      4497566,
+      4500000
+    ]
   },
   {
     "id": 25,
@@ -297,7 +633,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Streamer éducatif Fortnite, connu pour ses guides et tutoriels.",
-    "avatar": "📚"
+    "avatar": "📚",
+    "evolutionAbonnes": [
+      4482249,
+      4463614,
+      4564945,
+      4687467,
+      4634462,
+      4699928,
+      4753835,
+      4896412,
+      5072278,
+      5127592,
+      5085027,
+      5200000
+    ]
   },
   {
     "id": 26,
@@ -309,7 +659,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Streamer populaire, ancien joueur professionnel Call of Duty.",
-    "avatar": "💪"
+    "avatar": "💪",
+    "evolutionAbonnes": [
+      5731463,
+      5979313,
+      5980419,
+      5953494,
+      6110701,
+      6199962,
+      6381675,
+      6303656,
+      6480572,
+      6584731,
+      6836550,
+      6800000
+    ]
   },
   {
     "id": 27,
@@ -321,7 +685,21 @@ const streamersData = [
     "categorie": "FPS",
     "pays": "États-Unis",
     "description": "Légende du Call of Duty, membre d'OpTic Gaming.",
-    "avatar": "🎖️"
+    "avatar": "🎖️",
+    "evolutionAbonnes": [
+      2710451,
+      2750972,
+      2799824,
+      2856135,
+      2937628,
+      2902468,
+      2963815,
+      3065372,
+      3057769,
+      3108588,
+      3172783,
+      3200000
+    ]
   },
   {
     "id": 28,
@@ -333,7 +711,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Vétéran du streaming, connu pour ses streams variés.",
-    "avatar": "🎮"
+    "avatar": "🎮",
+    "evolutionAbonnes": [
+      5193836,
+      5423140,
+      5364934,
+      5543723,
+      5520306,
+      5596397,
+      5777891,
+      5816860,
+      5950639,
+      5914564,
+      6231066,
+      6200000
+    ]
   },
   {
     "id": 29,
@@ -345,7 +737,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Streamer variété, connu pour ses streams de différents jeux.",
-    "avatar": "🎲"
+    "avatar": "🎲",
+    "evolutionAbonnes": [
+      3230852,
+      3311140,
+      3281737,
+      3414279,
+      3445911,
+      3535174,
+      3525728,
+      3553827,
+      3671169,
+      3651989,
+      3792747,
+      3800000
+    ]
   },
   {
     "id": 30,
@@ -357,7 +763,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "États-Unis",
     "description": "Créateur de contenu populaire, connu pour ses critiques et réactions.",
-    "avatar": "💧"
+    "avatar": "💧",
+    "evolutionAbonnes": [
+      12877366,
+      12864334,
+      13137733,
+      13574173,
+      13607092,
+      13740231,
+      14253939,
+      14319987,
+      14232674,
+      14706824,
+      14847901,
+      15000000
+    ]
   },
   {
     "id": 31,
@@ -369,7 +789,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "Canada",
     "description": "Streamer très populaire, connu pour ses réactions et son contenu varié.",
-    "avatar": "⚡"
+    "avatar": "⚡",
+    "evolutionAbonnes": [
+      10005142,
+      10452704,
+      10643864,
+      10868155,
+      10764754,
+      11000103,
+      10968404,
+      11495811,
+      11622034,
+      11488677,
+      12022053,
+      12000000
+    ]
   },
   {
     "id": 32,
@@ -381,7 +815,21 @@ const streamersData = [
     "categorie": "Just Chatting",
     "pays": "États-Unis",
     "description": "Streamer connu pour ses événements et collaborations.",
-    "avatar": "🐱"
+    "avatar": "🐱",
+    "evolutionAbonnes": [
+      1521839,
+      1544170,
+      1603606,
+      1594182,
+      1656424,
+      1643207,
+      1710321,
+      1717529,
+      1741984,
+      1753457,
+      1749613,
+      1800000
+    ]
   },
   {
     "id": 33,
@@ -393,7 +841,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Vétéran du streaming, l'un des premiers grands streamers.",
-    "avatar": "🥤"
+    "avatar": "🥤",
+    "evolutionAbonnes": [
+      2665836,
+      2754357,
+      2845128,
+      2840244,
+      2916611,
+      2965592,
+      2981567,
+      2996569,
+      3070129,
+      3157356,
+      3128930,
+      3200000
+    ]
   },
   {
     "id": 34,
@@ -405,7 +867,21 @@ const streamersData = [
     "categorie": "Gambling",
     "pays": "États-Unis",
     "description": "Streamer connu pour ses streams de casino et gambling.",
-    "avatar": "🎰"
+    "avatar": "🎰",
+    "evolutionAbonnes": [
+      2415376,
+      2372473,
+      2499225,
+      2505638,
+      2523833,
+      2591948,
+      2619683,
+      2632681,
+      2640871,
+      2740394,
+      2753393,
+      2800000
+    ]
   },
   {
     "id": 35,
@@ -417,7 +893,21 @@ const streamersData = [
     "categorie": "Just Chatting",
     "pays": "États-Unis",
     "description": "Streamer populaire connu pour ses interviews et collaborations.",
-    "avatar": "🎤"
+    "avatar": "🎤",
+    "evolutionAbonnes": [
+      7198695,
+      7436253,
+      7351709,
+      7683072,
+      7577033,
+      7878713,
+      7896103,
+      8136204,
+      8007868,
+      8369488,
+      8483560,
+      8500000
+    ]
   },
   {
     "id": 36,
@@ -429,7 +919,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Streamer très énergique, connu pour ses réactions et son contenu football.",
-    "avatar": "⚽"
+    "avatar": "⚽",
+    "evolutionAbonnes": [
+      20901279,
+      21605911,
+      22194430,
+      22570973,
+      22580836,
+      23235917,
+      23171591,
+      23513525,
+      24070841,
+      24245834,
+      24591639,
+      25000000
+    ]
   },
   {
     "id": 37,
@@ -441,7 +945,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Créateur Minecraft très populaire, connu pour ses speedruns.",
-    "avatar": "😊"
+    "avatar": "😊",
+    "evolutionAbonnes": [
+      27149270,
+      27288870,
+      28454880,
+      28625453,
+      28670186,
+      29125358,
+      30181027,
+      30768867,
+      30461492,
+      30565625,
+      32152790,
+      32000000
+    ]
   },
   {
     "id": 38,
@@ -453,7 +971,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "Suède",
     "description": "Légende de YouTube, l'un des créateurs les plus suivis au monde.",
-    "avatar": "👑"
+    "avatar": "👑",
+    "evolutionAbonnes": [
+      93672455,
+      95410300,
+      98508989,
+      99816014,
+      102134090,
+      102677814,
+      105016347,
+      106378305,
+      105473141,
+      109138873,
+      107545570,
+      111000000
+    ]
   },
   {
     "id": 39,
@@ -465,7 +997,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "États-Unis",
     "description": "Créateur de contenu gaming très populaire, connu pour ses réactions.",
-    "avatar": "🎭"
+    "avatar": "🎭",
+    "evolutionAbonnes": [
+      31832557,
+      32443833,
+      33350773,
+      34442934,
+      34106818,
+      34321685,
+      35266278,
+      36136262,
+      36253413,
+      36633674,
+      38206814,
+      38000000
+    ]
   },
   {
     "id": 40,
@@ -477,7 +1023,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "Irlande",
     "description": "Créateur de contenu gaming irlandais très énergique.",
-    "avatar": "☘️"
+    "avatar": "☘️",
+    "evolutionAbonnes": [
+      27584231,
+      27174747,
+      27764527,
+      28352673,
+      29508017,
+      29825672,
+      30158562,
+      30011790,
+      31298374,
+      31692212,
+      31303047,
+      32000000
+    ]
   },
   {
     "id": 41,
@@ -489,7 +1049,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "États-Unis",
     "description": "Créateur de contenu le plus suivi au monde, connu pour ses défis et générosité.",
-    "avatar": "💰"
+    "avatar": "💰",
+    "evolutionAbonnes": [
+      209703850,
+      214624082,
+      223194204,
+      226484005,
+      225082232,
+      227669934,
+      237406708,
+      239967244,
+      239290162,
+      246753977,
+      247558779,
+      250000000
+    ]
   },
   {
     "id": 42,
@@ -501,7 +1075,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "Canada",
     "description": "Streamer québécois très populaire, ancien joueur pro Overwatch.",
-    "avatar": "🍁"
+    "avatar": "🍁",
+    "evolutionAbonnes": [
+      10152431,
+      10560930,
+      10626063,
+      10826738,
+      10666399,
+      11089763,
+      11293376,
+      11374755,
+      11644663,
+      11650713,
+      11776628,
+      12000000
+    ]
   },
   {
     "id": 43,
@@ -513,7 +1101,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "France",
     "description": "Caster et analyste League of Legends français.",
-    "avatar": "🎙️"
+    "avatar": "🎙️",
+    "evolutionAbonnes": [
+      731348,
+      726582,
+      740585,
+      750137,
+      771554,
+      773393,
+      779763,
+      814652,
+      804473,
+      830538,
+      835377,
+      850000
+    ]
   },
   {
     "id": 44,
@@ -525,7 +1127,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Organisation esport française, chaîne principale.",
-    "avatar": "⭐"
+    "avatar": "⭐",
+    "evolutionAbonnes": [
+      1029064,
+      1036536,
+      1048004,
+      1058436,
+      1077003,
+      1090781,
+      1100554,
+      1156233,
+      1153075,
+      1150167,
+      1205287,
+      1200000
+    ]
   },
   {
     "id": 45,
@@ -537,7 +1153,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français spécialisé dans les jeux indés.",
-    "avatar": "🎨"
+    "avatar": "🎨",
+    "evolutionAbonnes": [
+      350469,
+      362652,
+      373249,
+      377231,
+      372331,
+      390120,
+      392777,
+      397730,
+      406415,
+      416017,
+      421560,
+      420000
+    ]
   },
   {
     "id": 46,
@@ -549,7 +1179,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français très populaire, connu pour ses streams variés.",
-    "avatar": "🎮"
+    "avatar": "🎮",
+    "evolutionAbonnes": [
+      2407080,
+      2454647,
+      2498436,
+      2475309,
+      2557265,
+      2525357,
+      2639949,
+      2603181,
+      2678367,
+      2683865,
+      2777435,
+      2800000
+    ]
   },
   {
     "id": 47,
@@ -561,7 +1205,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français, membre de Solary.",
-    "avatar": "🦄"
+    "avatar": "🦄",
+    "evolutionAbonnes": [
+      1547785,
+      1528628,
+      1601396,
+      1601628,
+      1659348,
+      1626279,
+      1708578,
+      1686686,
+      1696996,
+      1730948,
+      1780620,
+      1800000
+    ]
   },
   {
     "id": 48,
@@ -573,7 +1231,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français spécialisé dans les jeux compétitifs.",
-    "avatar": "🔒"
+    "avatar": "🔒",
+    "evolutionAbonnes": [
+      807151,
+      835767,
+      825666,
+      834856,
+      862882,
+      867573,
+      891020,
+      894128,
+      907790,
+      916898,
+      935051,
+      950000
+    ]
   },
   {
     "id": 49,
@@ -585,7 +1257,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français, organisateur d'événements esport.",
-    "avatar": "⚡"
+    "avatar": "⚡",
+    "evolutionAbonnes": [
+      1891546,
+      1935378,
+      1959119,
+      1940801,
+      1998866,
+      2026560,
+      2063997,
+      2095041,
+      2117048,
+      2179155,
+      2146065,
+      2200000
+    ]
   },
   {
     "id": 50,
@@ -597,7 +1283,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français, connu pour ses streams de jeux variés.",
-    "avatar": "🎯"
+    "avatar": "🎯",
+    "evolutionAbonnes": [
+      543689,
+      555506,
+      565478,
+      570986,
+      589759,
+      598569,
+      612387,
+      623134,
+      635323,
+      635648,
+      649234,
+      650000
+    ]
   },
   {
     "id": 51,
@@ -609,7 +1309,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français spécialisé dans les jeux de stratégie.",
-    "avatar": "🧠"
+    "avatar": "🧠",
+    "evolutionAbonnes": [
+      410563,
+      417809,
+      418989,
+      425525,
+      437648,
+      436911,
+      446277,
+      446242,
+      468708,
+      466290,
+      469354,
+      480000
+    ]
   },
   {
     "id": 52,
@@ -621,7 +1335,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "France",
     "description": "Créateur de contenu français, connu pour WTC et ses analyses.",
-    "avatar": "📺"
+    "avatar": "📺",
+    "evolutionAbonnes": [
+      1251913,
+      1279120,
+      1325707,
+      1318517,
+      1364208,
+      1389289,
+      1407722,
+      1415783,
+      1423090,
+      1469948,
+      1495870,
+      1500000
+    ]
   },
   {
     "id": 53,
@@ -633,7 +1361,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Créateur de contenu gaming français, connu pour ses critiques de jeux rétro.",
-    "avatar": "🎮"
+    "avatar": "🎮",
+    "evolutionAbonnes": [
+      2729722,
+      2807008,
+      2828654,
+      2826811,
+      2852590,
+      2990872,
+      2977447,
+      2984339,
+      3096977,
+      3143973,
+      3173567,
+      3200000
+    ]
   },
   {
     "id": 54,
@@ -645,7 +1387,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "France",
     "description": "YouTuber français très populaire, créateur de contenu varié.",
-    "avatar": "🎬"
+    "avatar": "🎬",
+    "evolutionAbonnes": [
+      3630527,
+      3641542,
+      3701641,
+      3794223,
+      3832239,
+      3842430,
+      3935355,
+      3955440,
+      4054351,
+      4066166,
+      4087778,
+      4200000
+    ]
   },
   {
     "id": 55,
@@ -657,7 +1413,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "France",
     "description": "Duo de YouTubers français très populaire, créateurs de sketches.",
-    "avatar": "🎭"
+    "avatar": "🎭",
+    "evolutionAbonnes": [
+      7359688,
+      7271448,
+      7500071,
+      7534269,
+      7567693,
+      7905077,
+      7876727,
+      7985855,
+      8148481,
+      8266019,
+      8248986,
+      8500000
+    ]
   },
   {
     "id": 56,
@@ -669,7 +1439,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "France",
     "description": "YouTuber français légendaire, l'un des premiers créateurs français.",
-    "avatar": "🎪"
+    "avatar": "🎪",
+    "evolutionAbonnes": [
+      11704497,
+      12278176,
+      12096390,
+      12256951,
+      12777248,
+      12851543,
+      12914677,
+      13112673,
+      13412249,
+      13785499,
+      13781875,
+      14000000
+    ]
   },
   {
     "id": 57,
@@ -681,7 +1465,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "France",
     "description": "YouTuber français très populaire, créateur de sketches humoristiques.",
-    "avatar": "😄"
+    "avatar": "😄",
+    "evolutionAbonnes": [
+      10227754,
+      10297625,
+      10624622,
+      10898068,
+      11039635,
+      10944734,
+      11360195,
+      11137364,
+      11606209,
+      11721665,
+      12013738,
+      12000000
+    ]
   },
   {
     "id": 58,
@@ -693,7 +1491,21 @@ const streamersData = [
     "categorie": "Variété",
     "pays": "France",
     "description": "YouTuber française très populaire, créatrice de contenu humoristique.",
-    "avatar": "💃"
+    "avatar": "💃",
+    "evolutionAbonnes": [
+      2724645,
+      2759963,
+      2841624,
+      2831035,
+      2918542,
+      2890532,
+      2977435,
+      2975862,
+      3102884,
+      3067939,
+      3169702,
+      3200000
+    ]
   },
   {
     "id": 59,
@@ -705,7 +1517,21 @@ const streamersData = [
     "categorie": "Lifestyle",
     "pays": "France",
     "description": "YouTuber française, créatrice de contenu lifestyle et beauté.",
-    "avatar": "✨"
+    "avatar": "✨",
+    "evolutionAbonnes": [
+      2402583,
+      2463614,
+      2494732,
+      2496414,
+      2575409,
+      2553022,
+      2580573,
+      2621692,
+      2715523,
+      2709417,
+      2771684,
+      2800000
+    ]
   },
   {
     "id": 60,
@@ -717,7 +1543,21 @@ const streamersData = [
     "categorie": "Lifestyle",
     "pays": "France",
     "description": "Créatrice de contenu française, spécialisée dans le lifestyle.",
-    "avatar": "🌸"
+    "avatar": "🌸",
+    "evolutionAbonnes": [
+      1547265,
+      1549393,
+      1568580,
+      1626507,
+      1625435,
+      1664128,
+      1701473,
+      1726159,
+      1741395,
+      1730840,
+      1766496,
+      1800000
+    ]
   },
   {
     "id": 61,
@@ -729,7 +1569,21 @@ const streamersData = [
     "categorie": "Sport",
     "pays": "France",
     "description": "Créateur de contenu fitness français très populaire.",
-    "avatar": "💪"
+    "avatar": "💪",
+    "evolutionAbonnes": [
+      7308590,
+      7289993,
+      7468387,
+      7559274,
+      7691615,
+      7857069,
+      7840289,
+      8091891,
+      8308375,
+      8417665,
+      8379587,
+      8500000
+    ]
   },
   {
     "id": 62,
@@ -741,7 +1595,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français, membre de Solary.",
-    "avatar": "🎮"
+    "avatar": "🎮",
+    "evolutionAbonnes": [
+      1024379,
+      1049331,
+      1072476,
+      1082007,
+      1082803,
+      1117448,
+      1114243,
+      1118705,
+      1129411,
+      1180862,
+      1192707,
+      1200000
+    ]
   },
   {
     "id": 63,
@@ -753,7 +1621,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français spécialisé dans les jeux compétitifs.",
-    "avatar": "⭐"
+    "avatar": "⭐",
+    "evolutionAbonnes": [
+      729883,
+      733267,
+      739342,
+      751233,
+      772597,
+      775171,
+      782932,
+      809852,
+      808375,
+      818404,
+      852028,
+      850000
+    ]
   },
   {
     "id": 64,
@@ -765,7 +1647,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer française spécialisée dans les jeux de rôle.",
-    "avatar": "🎲"
+    "avatar": "🎲",
+    "evolutionAbonnes": [
+      556772,
+      560109,
+      580170,
+      585122,
+      591762,
+      596414,
+      608362,
+      616262,
+      626038,
+      639258,
+      640487,
+      650000
+    ]
   },
   {
     "id": 65,
@@ -777,7 +1673,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français spécialisé dans Minecraft.",
-    "avatar": "⛏️"
+    "avatar": "⛏️",
+    "evolutionAbonnes": [
+      404733,
+      422217,
+      417335,
+      431864,
+      440835,
+      447906,
+      454340,
+      455165,
+      464742,
+      474707,
+      474920,
+      480000
+    ]
   },
   {
     "id": 66,
@@ -789,7 +1699,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français, créateur de contenu gaming.",
-    "avatar": "🎯"
+    "avatar": "🎯",
+    "evolutionAbonnes": [
+      273608,
+      272325,
+      284414,
+      281374,
+      285539,
+      292991,
+      298145,
+      304268,
+      311789,
+      306723,
+      314673,
+      320000
+    ]
   },
   {
     "id": 67,
@@ -801,7 +1725,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français spécialisé dans les jeux indés.",
-    "avatar": "🎨"
+    "avatar": "🎨",
+    "evolutionAbonnes": [
+      238873,
+      238769,
+      248432,
+      250348,
+      256361,
+      254078,
+      260715,
+      265493,
+      264888,
+      267202,
+      274373,
+      280000
+    ]
   },
   {
     "id": 68,
@@ -813,7 +1751,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français, membre de Solary.",
-    "avatar": "🦊"
+    "avatar": "🦊",
+    "evolutionAbonnes": [
+      353638,
+      361178,
+      363469,
+      371645,
+      374556,
+      380801,
+      394927,
+      404419,
+      395411,
+      405095,
+      416466,
+      420000
+    ]
   },
   {
     "id": 69,
@@ -825,7 +1777,21 @@ const streamersData = [
     "categorie": "Gaming",
     "pays": "France",
     "description": "Streamer français spécialisé dans les jeux de stratégie.",
-    "avatar": "🎪"
+    "avatar": "🎪",
+    "evolutionAbonnes": [
+      325445,
+      326427,
+      334014,
+      334336,
+      339647,
+      349413,
+      352433,
+      363583,
+      363905,
+      370071,
+      373793,
+      380000
+    ]
   },
   {
     "id": 70,
@@ -837,7 +1803,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Corée du Sud",
     "description": "Légende de League of Legends, considéré comme le meilleur joueur de tous les temps.",
-    "avatar": "👑"
+    "avatar": "👑",
+    "evolutionAbonnes": [
+      4749439,
+      4715638,
+      4740584,
+      4877888,
+      5046239,
+      5085386,
+      5177947,
+      5298837,
+      5284160,
+      5335910,
+      5343498,
+      5500000
+    ]
   },
   {
     "id": 71,
@@ -849,7 +1829,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Chine",
     "description": "Joueur professionnel League of Legends chinois, légende de l'ADC.",
-    "avatar": "🎯"
+    "avatar": "🎯",
+    "evolutionAbonnes": [
+      2763695,
+      2769708,
+      2762387,
+      2810276,
+      2934447,
+      2972547,
+      2952275,
+      2975669,
+      3083161,
+      3128052,
+      3145151,
+      3200000
+    ]
   },
   {
     "id": 72,
@@ -861,7 +1855,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Danemark",
     "description": "Joueur professionnel League of Legends, membre de G2 Esports.",
-    "avatar": "⚡"
+    "avatar": "⚡",
+    "evolutionAbonnes": [
+      1552950,
+      1533801,
+      1588851,
+      1575213,
+      1622505,
+      1649029,
+      1685392,
+      1682016,
+      1721913,
+      1760032,
+      1742109,
+      1800000
+    ]
   },
   {
     "id": 73,
@@ -873,7 +1881,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "États-Unis",
     "description": "Légende de League of Legends en Amérique du Nord.",
-    "avatar": "🏆"
+    "avatar": "🏆",
+    "evolutionAbonnes": [
+      1850486,
+      1867051,
+      1903568,
+      1937399,
+      1997613,
+      2021801,
+      2082351,
+      2111787,
+      2101347,
+      2154891,
+      2156751,
+      2200000
+    ]
   },
   {
     "id": 74,
@@ -885,7 +1907,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Danemark",
     "description": "Ancien joueur professionnel League of Legends, maintenant coach.",
-    "avatar": "🎮"
+    "avatar": "🎮",
+    "evolutionAbonnes": [
+      2351122,
+      2420503,
+      2464877,
+      2528581,
+      2491296,
+      2587252,
+      2559048,
+      2674971,
+      2689584,
+      2717247,
+      2722715,
+      2800000
+    ]
   },
   {
     "id": 75,
@@ -897,7 +1933,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Croatie",
     "description": "Joueur professionnel League of Legends, membre de G2 Esports.",
-    "avatar": "⚔️"
+    "avatar": "⚔️",
+    "evolutionAbonnes": [
+      1280105,
+      1308145,
+      1309111,
+      1343963,
+      1355398,
+      1370733,
+      1387224,
+      1441913,
+      1434532,
+      1487380,
+      1485179,
+      1500000
+    ]
   },
   {
     "id": 76,
@@ -909,7 +1959,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Suède",
     "description": "Joueur professionnel League of Legends européen.",
-    "avatar": "🎯"
+    "avatar": "🎯",
+    "evolutionAbonnes": [
+      1556119,
+      1546891,
+      1550720,
+      1588259,
+      1600833,
+      1633160,
+      1667775,
+      1677166,
+      1704082,
+      1761704,
+      1768858,
+      1800000
+    ]
   },
   {
     "id": 77,
@@ -921,7 +1985,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Pologne",
     "description": "Joueur professionnel League of Legends, jungler pour G2 Esports.",
-    "avatar": "🌲"
+    "avatar": "🌲",
+    "evolutionAbonnes": [
+      1040166,
+      1054975,
+      1073464,
+      1062626,
+      1075752,
+      1112521,
+      1097804,
+      1151249,
+      1172981,
+      1177004,
+      1194952,
+      1200000
+    ]
   },
   {
     "id": 78,
@@ -933,7 +2011,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Danemark",
     "description": "Joueur professionnel League of Legends, top laner.",
-    "avatar": "🛡️"
+    "avatar": "🛡️",
+    "evolutionAbonnes": [
+      724471,
+      746910,
+      747326,
+      767452,
+      775943,
+      766119,
+      796160,
+      800231,
+      809605,
+      830074,
+      848524,
+      850000
+    ]
   },
   {
     "id": 79,
@@ -945,7 +2037,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Slovénie",
     "description": "Joueur professionnel League of Legends, support pour G2 Esports.",
-    "avatar": "💚"
+    "avatar": "💚",
+    "evolutionAbonnes": [
+      553693,
+      554422,
+      566989,
+      574082,
+      588131,
+      594570,
+      616481,
+      620314,
+      618018,
+      643706,
+      634753,
+      650000
+    ]
   },
   {
     "id": 80,
@@ -957,7 +2063,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "République tchèque",
     "description": "Joueur professionnel League of Legends, mid laner.",
-    "avatar": "🧠"
+    "avatar": "🧠",
+    "evolutionAbonnes": [
+      400710,
+      408326,
+      424398,
+      420128,
+      439412,
+      438732,
+      451586,
+      458978,
+      453426,
+      474658,
+      476683,
+      480000
+    ]
   },
   {
     "id": 81,
@@ -969,7 +2089,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Espagne",
     "description": "Joueur professionnel League of Legends, jungler pour MAD Lions.",
-    "avatar": "🦁"
+    "avatar": "🦁",
+    "evolutionAbonnes": [
+      460283,
+      468873,
+      486744,
+      497852,
+      490256,
+      512281,
+      515478,
+      516573,
+      519297,
+      536728,
+      546458,
+      550000
+    ]
   },
   {
     "id": 82,
@@ -981,7 +2115,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Turquie",
     "description": "Joueur professionnel League of Legends, top laner.",
-    "avatar": "🛡️"
+    "avatar": "🛡️",
+    "evolutionAbonnes": [
+      320616,
+      322146,
+      337886,
+      339963,
+      339502,
+      353229,
+      351778,
+      354468,
+      360914,
+      363461,
+      374435,
+      380000
+    ]
   },
   {
     "id": 83,
@@ -993,7 +2141,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "République tchèque",
     "description": "Joueur professionnel League of Legends, ADC.",
-    "avatar": "🎯"
+    "avatar": "🎯",
+    "evolutionAbonnes": [
+      363133,
+      365410,
+      374847,
+      380065,
+      376459,
+      385073,
+      391883,
+      389567,
+      401887,
+      404933,
+      412385,
+      420000
+    ]
   },
   {
     "id": 84,
@@ -1005,7 +2167,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Allemagne",
     "description": "Joueur professionnel League of Legends, support.",
-    "avatar": "💙"
+    "avatar": "💙",
+    "evolutionAbonnes": [
+      300446,
+      306325,
+      308199,
+      307614,
+      310668,
+      325935,
+      322373,
+      336476,
+      329650,
+      340232,
+      338480,
+      350000
+    ]
   },
   {
     "id": 85,
@@ -1017,7 +2193,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Belgique",
     "description": "Joueur professionnel League of Legends, mid laner.",
-    "avatar": "🧙"
+    "avatar": "🧙",
+    "evolutionAbonnes": [
+      382163,
+      389988,
+      393445,
+      404011,
+      407874,
+      407095,
+      419105,
+      425193,
+      426490,
+      440072,
+      444392,
+      450000
+    ]
   },
   {
     "id": 86,
@@ -1029,7 +2219,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Espagne",
     "description": "Joueur professionnel League of Legends, jungler.",
-    "avatar": "🗡️"
+    "avatar": "🗡️",
+    "evolutionAbonnes": [
+      346330,
+      349333,
+      343926,
+      351376,
+      357024,
+      361839,
+      375524,
+      381420,
+      379298,
+      391536,
+      388195,
+      400000
+    ]
   },
   {
     "id": 87,
@@ -1041,7 +2245,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Roumanie",
     "description": "Joueur professionnel League of Legends, top laner vétéran.",
-    "avatar": "🛡️"
+    "avatar": "🛡️",
+    "evolutionAbonnes": [
+      427936,
+      426072,
+      436492,
+      445123,
+      452987,
+      465173,
+      460191,
+      475040,
+      470681,
+      491890,
+      492848,
+      500000
+    ]
   },
   {
     "id": 88,
@@ -1053,7 +2271,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Suède",
     "description": "Joueur professionnel League of Legends, mid laner.",
-    "avatar": "❄️"
+    "avatar": "❄️",
+    "evolutionAbonnes": [
+      325974,
+      325615,
+      332552,
+      343019,
+      338777,
+      355098,
+      351662,
+      358604,
+      365190,
+      371439,
+      381604,
+      380000
+    ]
   },
   {
     "id": 89,
@@ -1065,7 +2297,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Grèce",
     "description": "Joueur professionnel League of Legends, ADC.",
-    "avatar": "🏛️"
+    "avatar": "🏛️",
+    "evolutionAbonnes": [
+      302479,
+      299470,
+      308700,
+      316191,
+      313716,
+      326761,
+      331613,
+      335619,
+      329710,
+      346194,
+      347517,
+      350000
+    ]
   },
   {
     "id": 90,
@@ -1077,7 +2323,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Pologne",
     "description": "Joueur professionnel League of Legends, support.",
-    "avatar": "💫"
+    "avatar": "💫",
+    "evolutionAbonnes": [
+      272029,
+      280342,
+      275123,
+      289011,
+      285983,
+      297357,
+      292289,
+      306393,
+      304762,
+      313886,
+      311647,
+      320000
+    ]
   },
   {
     "id": 91,
@@ -1089,7 +2349,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Corée du Sud",
     "description": "Joueur professionnel League of Legends, jungler.",
-    "avatar": "🌙"
+    "avatar": "🌙",
+    "evolutionAbonnes": [
+      363877,
+      364890,
+      374775,
+      374571,
+      385176,
+      383103,
+      387782,
+      390263,
+      406729,
+      412154,
+      417049,
+      420000
+    ]
   },
   {
     "id": 92,
@@ -1101,7 +2375,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "France",
     "description": "Joueur professionnel League of Legends, mid laner français.",
-    "avatar": "⭐"
+    "avatar": "⭐",
+    "evolutionAbonnes": [
+      320611,
+      330536,
+      326830,
+      336183,
+      343663,
+      349665,
+      350417,
+      355393,
+      368394,
+      362917,
+      381473,
+      380000
+    ]
   },
   {
     "id": 93,
@@ -1113,7 +2401,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Belgique",
     "description": "Joueur professionnel League of Legends, support.",
-    "avatar": "🛡️"
+    "avatar": "🛡️",
+    "evolutionAbonnes": [
+      302363,
+      299543,
+      306577,
+      316412,
+      312407,
+      319155,
+      331232,
+      330143,
+      332791,
+      340132,
+      339831,
+      350000
+    ]
   },
   {
     "id": 94,
@@ -1125,7 +2427,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Espagne",
     "description": "Joueur professionnel League of Legends, ADC.",
-    "avatar": "🎯"
+    "avatar": "🎯",
+    "evolutionAbonnes": [
+      340064,
+      343500,
+      355522,
+      350321,
+      367058,
+      367183,
+      380149,
+      378128,
+      389925,
+      389706,
+      394405,
+      400000
+    ]
   },
   {
     "id": 95,
@@ -1137,7 +2453,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Allemagne",
     "description": "Joueur professionnel League of Legends, top laner.",
-    "avatar": "⚔️"
+    "avatar": "⚔️",
+    "evolutionAbonnes": [
+      381970,
+      395081,
+      400262,
+      408669,
+      403188,
+      413085,
+      415736,
+      433284,
+      433838,
+      429338,
+      437923,
+      450000
+    ]
   },
   {
     "id": 96,
@@ -1149,7 +2479,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Suède",
     "description": "Joueur professionnel League of Legends, jungler pour G2 Esports.",
-    "avatar": "🌲"
+    "avatar": "🌲",
+    "evolutionAbonnes": [
+      403916,
+      418811,
+      426675,
+      426988,
+      428800,
+      432069,
+      438342,
+      457496,
+      454873,
+      463896,
+      467584,
+      480000
+    ]
   },
   {
     "id": 97,
@@ -1161,7 +2505,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "France",
     "description": "Joueur professionnel League of Legends, mid laner.",
-    "avatar": "🧙"
+    "avatar": "🧙",
+    "evolutionAbonnes": [
+      269628,
+      273914,
+      282082,
+      286698,
+      290207,
+      290509,
+      296425,
+      300443,
+      311776,
+      307405,
+      319677,
+      320000
+    ]
   },
   {
     "id": 98,
@@ -1173,7 +2531,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "République tchèque",
     "description": "Joueur professionnel League of Legends, ADC.",
-    "avatar": "💡"
+    "avatar": "💡",
+    "evolutionAbonnes": [
+      324173,
+      322288,
+      330845,
+      340114,
+      350560,
+      342397,
+      359769,
+      366048,
+      364154,
+      369094,
+      375841,
+      380000
+    ]
   },
   {
     "id": 99,
@@ -1185,7 +2557,21 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Bulgarie",
     "description": "Joueur professionnel League of Legends, support légendaire.",
-    "avatar": "🛡️"
+    "avatar": "🛡️",
+    "evolutionAbonnes": [
+      416702,
+      436255,
+      439073,
+      440223,
+      456617,
+      463674,
+      475201,
+      466983,
+      484439,
+      477549,
+      499127,
+      500000
+    ]
   },
   {
     "id": 100,
@@ -1197,6 +2583,20 @@ const streamersData = [
     "categorie": "League of Legends",
     "pays": "Allemagne",
     "description": "Joueur professionnel League of Legends, ADC.",
-    "avatar": "⚡"
+    "avatar": "⚡",
+    "evolutionAbonnes": [
+      409937,
+      413975,
+      413914,
+      435328,
+      442125,
+      448735,
+      449642,
+      459397,
+      452640,
+      460470,
+      469553,
+      480000
+    ]
   }
 ];
