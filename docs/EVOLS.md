@@ -1,6 +1,6 @@
 # 🚀 Évolutions de l'Application Top Streamers  
 
-Ce document contient la liste des évolutions à développer pour améliorer l'application. Chaque évolution est classée par type (CSS, HTML, JavaScript) et par difficulté (Moyenne, Complexe).
+Ce document contient la liste des évolutions à développer pour améliorer l'application. Chaque évolution est classée par type (CSS, HTML, JavaScript) et par difficulté (Simple, Moyenne, Complexe).
 
 ## 🎯 Instructions pour l'étudiant
 
@@ -21,7 +21,7 @@ Ce document contient la liste des évolutions à développer pour améliorer l'a
 - **Git** pour versionner votre travail
 
 ### Conseils :
-- Commencez par les évolutions de difficulté moyenne
+- Commencez par les évolutions simples pour prendre confiance
 - Planifiez avant de coder (spécification, architecture)
 - Testez régulièrement pendant le développement
 - Respectez le design existant de l'application
@@ -33,6 +33,43 @@ Ce document contient la liste des évolutions à développer pour améliorer l'a
 --------------------
 
 ### Evolution JS #008 - Moyenne
+
+**Priorité:** Normale
+**Type:** JavaScript
+**Difficulté:** ⭐⭐ Moyenne
+
+**Description:**
+Ajouter la possibilité de trier les streamers en ordre croissant (ASC) ou décroissant (DESC) directement en cliquant sur les en-têtes de colonnes du tableau. Actuellement, le tri se fait uniquement via les boutons en haut de la page.
+
+**Fonctionnalités:**
+- Clic sur l'en-tête "Rang" : le tri est exclu pour cette colonne
+- Clic sur l'en-tête "Streamer" : tri alphabétique (A-Z ou Z-A)
+- Clic sur l'en-tête "Plateforme" : tri par plateforme (alphabétique)
+- Clic sur l'en-tête "Abonnés" : tri par nombre d'abonnés (croissant ou décroissant)
+- Clic sur l'en-tête "Viewers" : tri par nombre de viewers (croissant ou décroissant)
+- Indicateur visuel (flèche ↑ ou ↓) pour montrer le sens du tri actif
+- Alternance entre ASC et DESC à chaque clic sur la même colonne
+
+**Objectifs:**
+- Améliorer l'expérience utilisateur avec un tri plus intuitif
+- Permettre un tri rapide directement depuis le tableau
+- Rendre l'interface plus interactive
+
+**Mise en œuvre:**
+1. **Spécification** : Définir le comportement de chaque colonne (triable ou non)
+2. **Design** : Ajouter des indicateurs visuels (icônes de flèches) pour le sens du tri
+3. **Implémentation** : Ajouter les event listeners sur les en-têtes de colonnes
+4. **Gestion d'état** : Gérer l'alternance ASC/DESC et l'état visuel
+
+**Livrables attendus:**
+- Spécification technique simple
+- Code implémenté avec gestion du tri sur toutes les colonnes
+- Indicateurs visuels fonctionnels
+- Tests de validation
+
+---
+
+### Evolution JS #009 - Moyenne
 
 **Priorité:** Moyenne
 **Type:** JavaScript
@@ -60,7 +97,7 @@ Ajouter une pagination ou un scroll infini sur l'affichage du tableau des stream
 
 ---
 
-### Evolution JS #009 - Complexe
+### Evolution JS #010 - Complexe
 
 **Priorité:** Moyenne
 **Type:** JavaScript
