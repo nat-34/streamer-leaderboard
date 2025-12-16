@@ -158,7 +158,7 @@ Si vous avez déjà quelques notions, vous pouvez passer directement aux parties
 
 Après avoir corrigé tous les bugs, vérifiez que :
 
-- [ ] #001 - Le sous-titre ne contient plus de faute de frappe ("meilleurss" → "meilleurs")
+- [x] #001 - Le sous-titre ne contient plus de faute de frappe ("meilleurss" → "meilleurs") 
 - [ ] #002 La liste des streamers s'affiche correctement dans le tableau
 - [ ] #003 Le nom du streamer "Seb" est corrigé en "Seb la frite"
 - [ ] #004 La modal box est visible et apparaît au-dessus du contenu 
