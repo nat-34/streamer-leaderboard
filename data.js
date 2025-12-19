@@ -7,7 +7,7 @@ const streamersData = [
     "abonnes": 18500000,
     "viewers": 45000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Joueur professionnel de Fortnite, connu pour ses streams énergiques.",
     "avatar": "🥷",
     "evolutionAbonnes": [
@@ -29,11 +29,11 @@ const streamersData = [
     "id": 2,
     "nom": "Squeezie",
     "pseudo": "Squeezie",
-    "plateforme": "Youtube",
+    "plateforme": "YouTube",
     "abonnes": 19900000,
     "viewers": 520000,
     "categorie": "Variété",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "YouTubeur et streamer français, créateur du GP Explorer.",
     "avatar": "🎮",
     "evolutionAbonnes": [
@@ -59,7 +59,7 @@ const streamersData = [
     "abonnes": 9300000,
     "viewers": 25000,
     "categorie": "Just Chatting",
-    "pays": "Canada",
+    "pays": "🇨🇦 Canada",
     "description": "Streameuse populaire connue pour ses streams de discussion.",
     "avatar": "💜",
     "evolutionAbonnes": [
@@ -85,7 +85,7 @@ const streamersData = [
     "abonnes": 4500000,
     "viewers": 35000,
     "categorie": "FPS",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Champion du monde Call of Duty, streamer gaming.",
     "avatar": "🎯",
     "evolutionAbonnes": [
@@ -103,32 +103,7 @@ const streamersData = [
       4500000
     ]
   },
-  {
-    "id": 5,
-    "nom": "xQc",
-    "pseudo": "xQcOW",
-    "plateforme": "Kick",
-    "abonnes": 12000000,
-    "viewers": 80000,
-    "categorie": "Variété",
-    "pays": "Canada",
-    "description": "Ex-joueur pro Overwatch, connu pour ses réactions.",
-    "avatar": "⚡",
-    "evolutionAbonnes": [
-      10396109,
-      10546536,
-      10334206,
-      10574055,
-      11028462,
-      11001802,
-      11018605,
-      11301742,
-      11567552,
-      11875126,
-      11695032,
-      12000000
-    ]
-  },
+  
   {
     "id": 6,
     "nom": "Sardoche",
@@ -137,7 +112,7 @@ const streamersData = [
     "abonnes": 1800000,
     "viewers": 15000,
     "categorie": "League of Legends",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français spécialisé League of Legends.",
     "avatar": "🦁",
     "evolutionAbonnes": [
@@ -163,7 +138,7 @@ const streamersData = [
     "abonnes": 6200000,
     "viewers": 12000,
     "categorie": "Just Chatting",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streameuse et entrepreneuse américaine.",
     "avatar": "🌸",
     "evolutionAbonnes": [
@@ -189,7 +164,7 @@ const streamersData = [
     "abonnes": 2100000,
     "viewers": 18000,
     "categorie": "League of Legends",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français, duo légendaire avec Sardoche.",
     "avatar": "🐉",
     "evolutionAbonnes": [
@@ -215,7 +190,7 @@ const streamersData = [
     "abonnes": 11000000,
     "viewers": 55000,
     "categorie": "FPS",
-    "pays": "Canada",
+    "pays": "🇨🇦 Canada",
     "description": "Ancien joueur professionnel CS:GO, maintenant streamer FPS.",
     "avatar": "🎪",
     "evolutionAbonnes": [
@@ -241,7 +216,7 @@ const streamersData = [
     "abonnes": 3500000,
     "viewers": 90000,
     "categorie": "MMORPG",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer spécialisé dans World of Warcraft et les MMORPG.",
     "avatar": "⚔️",
     "evolutionAbonnes": [
@@ -267,7 +242,7 @@ const streamersData = [
     "abonnes": 15000000,
     "viewers": 200000,
     "categorie": "Variété",
-    "pays": "Espagne",
+    "pays": "🇪🇸 Espagne",
     "description": "Streamer espagnol très populaire, organisateur d'événements.",
     "avatar": "🔥",
     "evolutionAbonnes": [
@@ -293,7 +268,7 @@ const streamersData = [
     "abonnes": 41000000,
     "viewers": 85000,
     "categorie": "Gaming",
-    "pays": "Espagne",
+    "pays": "🇪🇸 Espagne",
     "description": "YouTuber et streamer espagnol, l'un des plus suivis au monde.",
     "avatar": "👾",
     "evolutionAbonnes": [
@@ -319,7 +294,7 @@ const streamersData = [
     "abonnes": 3000000,
     "viewers": 75000,
     "categorie": "Variété",
-    "pays": "Espagne",
+    "pays": "🇪🇸 Espagne",
     "description": "Streamer espagnol connu pour son humour et ses réactions.",
     "avatar": "😎",
     "evolutionAbonnes": [
@@ -345,7 +320,7 @@ const streamersData = [
     "abonnes": 4800000,
     "viewers": 28000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Joueur professionnel de Fortnite, membre de TSM.",
     "avatar": "🏹",
     "evolutionAbonnes": [
@@ -371,7 +346,7 @@ const streamersData = [
     "abonnes": 5500000,
     "viewers": 42000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer populaire connu pour ses streams de Call of Duty et Warzone.",
     "avatar": "🎲",
     "evolutionAbonnes": [
@@ -397,7 +372,7 @@ const streamersData = [
     "abonnes": 4800000,
     "viewers": 65000,
     "categorie": "FPS",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Personnage iconique du streaming FPS, connu pour son style unique.",
     "avatar": "🎭",
     "evolutionAbonnes": [
@@ -423,7 +398,7 @@ const streamersData = [
     "abonnes": 4200000,
     "viewers": 38000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer populaire, membre de 100 Thieves.",
     "avatar": "👑",
     "evolutionAbonnes": [
@@ -449,7 +424,7 @@ const streamersData = [
     "abonnes": 3800000,
     "viewers": 32000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer connu pour ses streams Among Us et ses collaborations.",
     "avatar": "😊",
     "evolutionAbonnes": [
@@ -475,7 +450,7 @@ const streamersData = [
     "abonnes": 5200000,
     "viewers": 45000,
     "categorie": "Variété",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer créatif connu pour ses événements et défis uniques.",
     "avatar": "🎪",
     "evolutionAbonnes": [
@@ -501,7 +476,7 @@ const streamersData = [
     "abonnes": 2800000,
     "viewers": 55000,
     "categorie": "Just Chatting",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer politique et commentateur, connu pour ses analyses.",
     "avatar": "📺",
     "evolutionAbonnes": [
@@ -527,7 +502,7 @@ const streamersData = [
     "abonnes": 12000000,
     "viewers": 180000,
     "categorie": "Variété",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer très populaire connu pour son énergie et son contenu varié.",
     "avatar": "💥",
     "evolutionAbonnes": [
@@ -553,7 +528,7 @@ const streamersData = [
     "abonnes": 11000000,
     "viewers": 48000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Joueur professionnel de Fortnite, l'un des meilleurs au monde.",
     "avatar": "🎯",
     "evolutionAbonnes": [
@@ -579,7 +554,7 @@ const streamersData = [
     "abonnes": 3200000,
     "viewers": 22000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Champion du monde Fortnite World Cup 2019.",
     "avatar": "🏆",
     "evolutionAbonnes": [
@@ -605,7 +580,7 @@ const streamersData = [
     "abonnes": 4500000,
     "viewers": 35000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Joueur professionnel de Fortnite, connu pour ses skills.",
     "avatar": "⚡",
     "evolutionAbonnes": [
@@ -631,7 +606,7 @@ const streamersData = [
     "abonnes": 5200000,
     "viewers": 28000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer éducatif Fortnite, connu pour ses guides et tutoriels.",
     "avatar": "📚",
     "evolutionAbonnes": [
@@ -657,7 +632,7 @@ const streamersData = [
     "abonnes": 6800000,
     "viewers": 52000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer populaire, ancien joueur professionnel Call of Duty.",
     "avatar": "💪",
     "evolutionAbonnes": [
@@ -683,7 +658,7 @@ const streamersData = [
     "abonnes": 3200000,
     "viewers": 25000,
     "categorie": "FPS",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Légende du Call of Duty, membre d'OpTic Gaming.",
     "avatar": "🎖️",
     "evolutionAbonnes": [
@@ -709,7 +684,7 @@ const streamersData = [
     "abonnes": 6200000,
     "viewers": 38000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Vétéran du streaming, connu pour ses streams variés.",
     "avatar": "🎮",
     "evolutionAbonnes": [
@@ -735,7 +710,7 @@ const streamersData = [
     "abonnes": 3800000,
     "viewers": 32000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer variété, connu pour ses streams de différents jeux.",
     "avatar": "🎲",
     "evolutionAbonnes": [
@@ -761,7 +736,7 @@ const streamersData = [
     "abonnes": 15000000,
     "viewers": 85000,
     "categorie": "Variété",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Créateur de contenu populaire, connu pour ses critiques et réactions.",
     "avatar": "💧",
     "evolutionAbonnes": [
@@ -787,7 +762,7 @@ const streamersData = [
     "abonnes": 12000000,
     "viewers": 95000,
     "categorie": "Variété",
-    "pays": "Canada",
+    "pays": "🇨🇦 Canada",
     "description": "Streamer très populaire, connu pour ses réactions et son contenu varié.",
     "avatar": "⚡",
     "evolutionAbonnes": [
@@ -813,7 +788,7 @@ const streamersData = [
     "abonnes": 1800000,
     "viewers": 28000,
     "categorie": "Just Chatting",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer connu pour ses événements et collaborations.",
     "avatar": "🐱",
     "evolutionAbonnes": [
@@ -839,7 +814,7 @@ const streamersData = [
     "abonnes": 3200000,
     "viewers": 25000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Vétéran du streaming, l'un des premiers grands streamers.",
     "avatar": "🥤",
     "evolutionAbonnes": [
@@ -865,7 +840,7 @@ const streamersData = [
     "abonnes": 2800000,
     "viewers": 45000,
     "categorie": "Gambling",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer connu pour ses streams de casino et gambling.",
     "avatar": "🎰",
     "evolutionAbonnes": [
@@ -891,7 +866,7 @@ const streamersData = [
     "abonnes": 8500000,
     "viewers": 120000,
     "categorie": "Just Chatting",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer populaire connu pour ses interviews et collaborations.",
     "avatar": "🎤",
     "evolutionAbonnes": [
@@ -917,7 +892,7 @@ const streamersData = [
     "abonnes": 25000000,
     "viewers": 150000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Streamer très énergique, connu pour ses réactions et son contenu football.",
     "avatar": "⚽",
     "evolutionAbonnes": [
@@ -943,7 +918,7 @@ const streamersData = [
     "abonnes": 32000000,
     "viewers": 95000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Créateur Minecraft très populaire, connu pour ses speedruns.",
     "avatar": "😊",
     "evolutionAbonnes": [
@@ -969,7 +944,7 @@ const streamersData = [
     "abonnes": 111000000,
     "viewers": 45000,
     "categorie": "Gaming",
-    "pays": "Suède",
+    "pays": "🇸🇪 Suède",
     "description": "Légende de YouTube, l'un des créateurs les plus suivis au monde.",
     "avatar": "👑",
     "evolutionAbonnes": [
@@ -995,7 +970,7 @@ const streamersData = [
     "abonnes": 38000000,
     "viewers": 55000,
     "categorie": "Gaming",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Créateur de contenu gaming très populaire, connu pour ses réactions.",
     "avatar": "🎭",
     "evolutionAbonnes": [
@@ -1021,7 +996,7 @@ const streamersData = [
     "abonnes": 32000000,
     "viewers": 42000,
     "categorie": "Gaming",
-    "pays": "Irlande",
+    "pays": "🇮🇪 Irlande",
     "description": "Créateur de contenu gaming irlandais très énergique.",
     "avatar": "☘️",
     "evolutionAbonnes": [
@@ -1047,7 +1022,7 @@ const streamersData = [
     "abonnes": 250000000,
     "viewers": 180000,
     "categorie": "Variété",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Créateur de contenu le plus suivi au monde, connu pour ses défis et générosité.",
     "avatar": "💰",
     "evolutionAbonnes": [
@@ -1065,32 +1040,7 @@ const streamersData = [
       250000000
     ]
   },
-  {
-    "id": 42,
-    "nom": "Félix Lengyel",
-    "pseudo": "xQc",
-    "plateforme": "Kick",
-    "abonnes": 12000000,
-    "viewers": 85000,
-    "categorie": "Variété",
-    "pays": "Canada",
-    "description": "Streamer québécois très populaire, ancien joueur pro Overwatch.",
-    "avatar": "🍁",
-    "evolutionAbonnes": [
-      10152431,
-      10560930,
-      10626063,
-      10826738,
-      10666399,
-      11089763,
-      11293376,
-      11374755,
-      11644663,
-      11650713,
-      11776628,
-      12000000
-    ]
-  },
+  
   {
     "id": 43,
     "nom": "Alphacast",
@@ -1099,7 +1049,7 @@ const streamersData = [
     "abonnes": 850000,
     "viewers": 12000,
     "categorie": "League of Legends",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Caster et analyste League of Legends français.",
     "avatar": "🎙️",
     "evolutionAbonnes": [
@@ -1125,7 +1075,7 @@ const streamersData = [
     "abonnes": 1200000,
     "viewers": 18000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Organisation esport française, chaîne principale.",
     "avatar": "⭐",
     "evolutionAbonnes": [
@@ -1151,7 +1101,7 @@ const streamersData = [
     "abonnes": 420000,
     "viewers": 8500,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français spécialisé dans les jeux indés.",
     "avatar": "🎨",
     "evolutionAbonnes": [
@@ -1177,7 +1127,7 @@ const streamersData = [
     "abonnes": 2800000,
     "viewers": 32000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français très populaire, connu pour ses streams variés.",
     "avatar": "🎮",
     "evolutionAbonnes": [
@@ -1203,7 +1153,7 @@ const streamersData = [
     "abonnes": 1800000,
     "viewers": 22000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français, membre de Solary.",
     "avatar": "🦄",
     "evolutionAbonnes": [
@@ -1229,7 +1179,7 @@ const streamersData = [
     "abonnes": 950000,
     "viewers": 15000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français spécialisé dans les jeux compétitifs.",
     "avatar": "🔒",
     "evolutionAbonnes": [
@@ -1255,7 +1205,7 @@ const streamersData = [
     "abonnes": 2200000,
     "viewers": 28000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français, organisateur d'événements esport.",
     "avatar": "⚡",
     "evolutionAbonnes": [
@@ -1281,7 +1231,7 @@ const streamersData = [
     "abonnes": 650000,
     "viewers": 12000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français, connu pour ses streams de jeux variés.",
     "avatar": "🎯",
     "evolutionAbonnes": [
@@ -1307,7 +1257,7 @@ const streamersData = [
     "abonnes": 480000,
     "viewers": 9500,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français spécialisé dans les jeux de stratégie.",
     "avatar": "🧠",
     "evolutionAbonnes": [
@@ -1333,7 +1283,7 @@ const streamersData = [
     "abonnes": 1500000,
     "viewers": 18000,
     "categorie": "Variété",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Créateur de contenu français, connu pour WTC et ses analyses.",
     "avatar": "📺",
     "evolutionAbonnes": [
@@ -1359,7 +1309,7 @@ const streamersData = [
     "abonnes": 3200000,
     "viewers": 25000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Créateur de contenu gaming français, connu pour ses critiques de jeux rétro.",
     "avatar": "🎮",
     "evolutionAbonnes": [
@@ -1385,7 +1335,7 @@ const streamersData = [
     "abonnes": 4200000,
     "viewers": 32000,
     "categorie": "Variété",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "YouTuber français très populaire, créateur de contenu varié.",
     "avatar": "🎬",
     "evolutionAbonnes": [
@@ -1411,7 +1361,7 @@ const streamersData = [
     "abonnes": 8500000,
     "viewers": 55000,
     "categorie": "Variété",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Duo de YouTubers français très populaire, créateurs de sketches.",
     "avatar": "🎭",
     "evolutionAbonnes": [
@@ -1437,7 +1387,7 @@ const streamersData = [
     "abonnes": 14000000,
     "viewers": 45000,
     "categorie": "Variété",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "YouTuber français légendaire, l'un des premiers créateurs français.",
     "avatar": "🎪",
     "evolutionAbonnes": [
@@ -1463,7 +1413,7 @@ const streamersData = [
     "abonnes": 12000000,
     "viewers": 38000,
     "categorie": "Variété",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "YouTuber français très populaire, créateur de sketches humoristiques.",
     "avatar": "😄",
     "evolutionAbonnes": [
@@ -1489,7 +1439,7 @@ const streamersData = [
     "abonnes": 3200000,
     "viewers": 22000,
     "categorie": "Variété",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "YouTuber française très populaire, créatrice de contenu humoristique.",
     "avatar": "💃",
     "evolutionAbonnes": [
@@ -1515,7 +1465,7 @@ const streamersData = [
     "abonnes": 2800000,
     "viewers": 18000,
     "categorie": "Lifestyle",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "YouTuber française, créatrice de contenu lifestyle et beauté.",
     "avatar": "✨",
     "evolutionAbonnes": [
@@ -1541,7 +1491,7 @@ const streamersData = [
     "abonnes": 1800000,
     "viewers": 15000,
     "categorie": "Lifestyle",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Créatrice de contenu française, spécialisée dans le lifestyle.",
     "avatar": "🌸",
     "evolutionAbonnes": [
@@ -1567,7 +1517,7 @@ const streamersData = [
     "abonnes": 8500000,
     "viewers": 65000,
     "categorie": "Sport",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Créateur de contenu fitness français très populaire.",
     "avatar": "💪",
     "evolutionAbonnes": [
@@ -1587,13 +1537,13 @@ const streamersData = [
   },
   {
     "id": 62,
-    "nom": "Seb",
-    "pseudo": "Seb",
+    "nom": "Seb la frite",
+    "pseudo": "Seb la frite",
     "plateforme": "Twitch",
     "abonnes": 1200000,
     "viewers": 20000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français, membre de Solary.",
     "avatar": "🎮",
     "evolutionAbonnes": [
@@ -1619,7 +1569,7 @@ const streamersData = [
     "abonnes": 850000,
     "viewers": 15000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français spécialisé dans les jeux compétitifs.",
     "avatar": "⭐",
     "evolutionAbonnes": [
@@ -1645,7 +1595,7 @@ const streamersData = [
     "abonnes": 650000,
     "viewers": 12000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer française spécialisée dans les jeux de rôle.",
     "avatar": "🎲",
     "evolutionAbonnes": [
@@ -1671,7 +1621,7 @@ const streamersData = [
     "abonnes": 480000,
     "viewers": 9500,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français spécialisé dans Minecraft.",
     "avatar": "⛏️",
     "evolutionAbonnes": [
@@ -1697,7 +1647,7 @@ const streamersData = [
     "abonnes": 320000,
     "viewers": 7500,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français, créateur de contenu gaming.",
     "avatar": "🎯",
     "evolutionAbonnes": [
@@ -1723,7 +1673,7 @@ const streamersData = [
     "abonnes": 280000,
     "viewers": 6500,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français spécialisé dans les jeux indés.",
     "avatar": "🎨",
     "evolutionAbonnes": [
@@ -1749,7 +1699,7 @@ const streamersData = [
     "abonnes": 420000,
     "viewers": 8500,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français, membre de Solary.",
     "avatar": "🦊",
     "evolutionAbonnes": [
@@ -1775,7 +1725,7 @@ const streamersData = [
     "abonnes": 380000,
     "viewers": 8000,
     "categorie": "Gaming",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Streamer français spécialisé dans les jeux de stratégie.",
     "avatar": "🎪",
     "evolutionAbonnes": [
@@ -1801,7 +1751,7 @@ const streamersData = [
     "abonnes": 5500000,
     "viewers": 85000,
     "categorie": "League of Legends",
-    "pays": "Corée du Sud",
+    "pays": "🇰🇷 Corée du Sud",
     "description": "Légende de League of Legends, considéré comme le meilleur joueur de tous les temps.",
     "avatar": "👑",
     "evolutionAbonnes": [
@@ -1827,7 +1777,7 @@ const streamersData = [
     "abonnes": 3200000,
     "viewers": 45000,
     "categorie": "League of Legends",
-    "pays": "Chine",
+    "pays": "🇨🇳 Chine",
     "description": "Joueur professionnel League of Legends chinois, légende de l'ADC.",
     "avatar": "🎯",
     "evolutionAbonnes": [
@@ -1853,7 +1803,7 @@ const streamersData = [
     "abonnes": 1800000,
     "viewers": 28000,
     "categorie": "League of Legends",
-    "pays": "Danemark",
+    "pays": "🇩🇰 Danemark",
     "description": "Joueur professionnel League of Legends, membre de G2 Esports.",
     "avatar": "⚡",
     "evolutionAbonnes": [
@@ -1879,7 +1829,7 @@ const streamersData = [
     "abonnes": 2200000,
     "viewers": 32000,
     "categorie": "League of Legends",
-    "pays": "États-Unis",
+    "pays": "🇺🇸 États-Unis",
     "description": "Légende de League of Legends en Amérique du Nord.",
     "avatar": "🏆",
     "evolutionAbonnes": [
@@ -1905,7 +1855,7 @@ const streamersData = [
     "abonnes": 2800000,
     "viewers": 35000,
     "categorie": "League of Legends",
-    "pays": "Danemark",
+    "pays": "🇩🇰 Danemark",
     "description": "Ancien joueur professionnel League of Legends, maintenant coach.",
     "avatar": "🎮",
     "evolutionAbonnes": [
@@ -1931,7 +1881,7 @@ const streamersData = [
     "abonnes": 1500000,
     "viewers": 22000,
     "categorie": "League of Legends",
-    "pays": "Croatie",
+    "pays": "🇭🇷 Croatie",
     "description": "Joueur professionnel League of Legends, membre de G2 Esports.",
     "avatar": "⚔️",
     "evolutionAbonnes": [
@@ -1957,7 +1907,7 @@ const streamersData = [
     "abonnes": 1800000,
     "viewers": 25000,
     "categorie": "League of Legends",
-    "pays": "Suède",
+    "pays": "🇸🇪 Suède",
     "description": "Joueur professionnel League of Legends européen.",
     "avatar": "🎯",
     "evolutionAbonnes": [
@@ -1983,7 +1933,7 @@ const streamersData = [
     "abonnes": 1200000,
     "viewers": 18000,
     "categorie": "League of Legends",
-    "pays": "Pologne",
+    "pays": "🇵🇱 Pologne",
     "description": "Joueur professionnel League of Legends, jungler pour G2 Esports.",
     "avatar": "🌲",
     "evolutionAbonnes": [
@@ -2009,7 +1959,7 @@ const streamersData = [
     "abonnes": 850000,
     "viewers": 12000,
     "categorie": "League of Legends",
-    "pays": "Danemark",
+    "pays": "🇩🇰 Danemark",
     "description": "Joueur professionnel League of Legends, top laner.",
     "avatar": "🛡️",
     "evolutionAbonnes": [
@@ -2035,7 +1985,7 @@ const streamersData = [
     "abonnes": 650000,
     "viewers": 9500,
     "categorie": "League of Legends",
-    "pays": "Slovénie",
+    "pays": "🇸🇮 Slovénie",
     "description": "Joueur professionnel League of Legends, support pour G2 Esports.",
     "avatar": "💚",
     "evolutionAbonnes": [
@@ -2061,7 +2011,7 @@ const streamersData = [
     "abonnes": 480000,
     "viewers": 8000,
     "categorie": "League of Legends",
-    "pays": "République tchèque",
+    "pays": "🇨🇿 République tchèque",
     "description": "Joueur professionnel League of Legends, mid laner.",
     "avatar": "🧠",
     "evolutionAbonnes": [
@@ -2087,7 +2037,7 @@ const streamersData = [
     "abonnes": 550000,
     "viewers": 10000,
     "categorie": "League of Legends",
-    "pays": "Espagne",
+    "pays": "🇪🇸 Espagne",
     "description": "Joueur professionnel League of Legends, jungler pour MAD Lions.",
     "avatar": "🦁",
     "evolutionAbonnes": [
@@ -2113,7 +2063,7 @@ const streamersData = [
     "abonnes": 380000,
     "viewers": 7500,
     "categorie": "League of Legends",
-    "pays": "Turquie",
+    "pays": "🇹🇷 Turquie",
     "description": "Joueur professionnel League of Legends, top laner.",
     "avatar": "🛡️",
     "evolutionAbonnes": [
@@ -2139,7 +2089,7 @@ const streamersData = [
     "abonnes": 420000,
     "viewers": 8500,
     "categorie": "League of Legends",
-    "pays": "République tchèque",
+    "pays": "🇨🇿 République tchèque",
     "description": "Joueur professionnel League of Legends, ADC.",
     "avatar": "🎯",
     "evolutionAbonnes": [
@@ -2165,7 +2115,7 @@ const streamersData = [
     "abonnes": 350000,
     "viewers": 7000,
     "categorie": "League of Legends",
-    "pays": "Allemagne",
+    "pays": "🇩🇪 Allemagne",
     "description": "Joueur professionnel League of Legends, support.",
     "avatar": "💙",
     "evolutionAbonnes": [
@@ -2191,7 +2141,7 @@ const streamersData = [
     "abonnes": 450000,
     "viewers": 9000,
     "categorie": "League of Legends",
-    "pays": "Belgique",
+    "pays": "🇧🇪 Belgique",
     "description": "Joueur professionnel League of Legends, mid laner.",
     "avatar": "🧙",
     "evolutionAbonnes": [
@@ -2217,7 +2167,7 @@ const streamersData = [
     "abonnes": 400000,
     "viewers": 8000,
     "categorie": "League of Legends",
-    "pays": "Espagne",
+    "pays": "🇪🇸 Espagne",
     "description": "Joueur professionnel League of Legends, jungler.",
     "avatar": "🗡️",
     "evolutionAbonnes": [
@@ -2243,7 +2193,7 @@ const streamersData = [
     "abonnes": 500000,
     "viewers": 9500,
     "categorie": "League of Legends",
-    "pays": "Roumanie",
+    "pays": "🇷🇴 Roumanie",
     "description": "Joueur professionnel League of Legends, top laner vétéran.",
     "avatar": "🛡️",
     "evolutionAbonnes": [
@@ -2269,7 +2219,7 @@ const streamersData = [
     "abonnes": 380000,
     "viewers": 7500,
     "categorie": "League of Legends",
-    "pays": "Suède",
+    "pays": "🇸🇪 Suède",
     "description": "Joueur professionnel League of Legends, mid laner.",
     "avatar": "❄️",
     "evolutionAbonnes": [
@@ -2295,7 +2245,7 @@ const streamersData = [
     "abonnes": 350000,
     "viewers": 7000,
     "categorie": "League of Legends",
-    "pays": "Grèce",
+    "pays": "🇬🇷 Grèce",
     "description": "Joueur professionnel League of Legends, ADC.",
     "avatar": "🏛️",
     "evolutionAbonnes": [
@@ -2321,7 +2271,7 @@ const streamersData = [
     "abonnes": 320000,
     "viewers": 6500,
     "categorie": "League of Legends",
-    "pays": "Pologne",
+    "pays": "🇵🇱 Pologne",
     "description": "Joueur professionnel League of Legends, support.",
     "avatar": "💫",
     "evolutionAbonnes": [
@@ -2347,7 +2297,7 @@ const streamersData = [
     "abonnes": 420000,
     "viewers": 8500,
     "categorie": "League of Legends",
-    "pays": "Corée du Sud",
+    "pays": "🇰🇷 Corée du Sud",
     "description": "Joueur professionnel League of Legends, jungler.",
     "avatar": "🌙",
     "evolutionAbonnes": [
@@ -2373,7 +2323,7 @@ const streamersData = [
     "abonnes": 380000,
     "viewers": 7500,
     "categorie": "League of Legends",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Joueur professionnel League of Legends, mid laner français.",
     "avatar": "⭐",
     "evolutionAbonnes": [
@@ -2399,7 +2349,7 @@ const streamersData = [
     "abonnes": 350000,
     "viewers": 7000,
     "categorie": "League of Legends",
-    "pays": "Belgique",
+    "pays": "🇧🇪 Belgique",
     "description": "Joueur professionnel League of Legends, support.",
     "avatar": "🛡️",
     "evolutionAbonnes": [
@@ -2425,7 +2375,7 @@ const streamersData = [
     "abonnes": 400000,
     "viewers": 8000,
     "categorie": "League of Legends",
-    "pays": "Espagne",
+    "pays": "🇪🇸 Espagne",
     "description": "Joueur professionnel League of Legends, ADC.",
     "avatar": "🎯",
     "evolutionAbonnes": [
@@ -2451,7 +2401,7 @@ const streamersData = [
     "abonnes": 450000,
     "viewers": 9000,
     "categorie": "League of Legends",
-    "pays": "Allemagne",
+    "pays": "🇩🇪 Allemagne",
     "description": "Joueur professionnel League of Legends, top laner.",
     "avatar": "⚔️",
     "evolutionAbonnes": [
@@ -2477,7 +2427,7 @@ const streamersData = [
     "abonnes": 480000,
     "viewers": 9000,
     "categorie": "League of Legends",
-    "pays": "Suède",
+    "pays": "🇸🇪 Suède",
     "description": "Joueur professionnel League of Legends, jungler pour G2 Esports.",
     "avatar": "🌲",
     "evolutionAbonnes": [
@@ -2503,7 +2453,7 @@ const streamersData = [
     "abonnes": 320000,
     "viewers": 6500,
     "categorie": "League of Legends",
-    "pays": "France",
+    "pays": "🇫🇷 France",
     "description": "Joueur professionnel League of Legends, mid laner.",
     "avatar": "🧙",
     "evolutionAbonnes": [
@@ -2529,7 +2479,7 @@ const streamersData = [
     "abonnes": 380000,
     "viewers": 7500,
     "categorie": "League of Legends",
-    "pays": "République tchèque",
+    "pays": "🇨🇿 République tchèque",
     "description": "Joueur professionnel League of Legends, ADC.",
     "avatar": "💡",
     "evolutionAbonnes": [
@@ -2555,7 +2505,7 @@ const streamersData = [
     "abonnes": 500000,
     "viewers": 9500,
     "categorie": "League of Legends",
-    "pays": "Bulgarie",
+    "pays": "🇧🇬 Bulgarie",
     "description": "Joueur professionnel League of Legends, support légendaire.",
     "avatar": "🛡️",
     "evolutionAbonnes": [
@@ -2581,7 +2531,7 @@ const streamersData = [
     "abonnes": 480000,
     "viewers": 9000,
     "categorie": "League of Legends",
-    "pays": "Allemagne",
+    "pays": "🇩🇪 Allemagne",
     "description": "Joueur professionnel League of Legends, ADC.",
     "avatar": "⚡",
     "evolutionAbonnes": [

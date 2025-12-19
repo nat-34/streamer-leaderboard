@@ -4,7 +4,15 @@ let streamers = [];
 // État de l'application
 let recherche = "";
 let tri = "abonnes";
+let ordreTri = "desc"; // 🔹 asc / desc
 let streamerSelectionne = null;
+
+// 🔹 Pagination
+let currentPage = 1;
+const itemsPerPage = 10;
+
+// 🔹 Graphique Chart.js
+let abonnesChart = null;
 
 // Fonction pour formater les grands nombres
 function formaterNombre(nombre) {
@@ -43,47 +51,63 @@ function filtrerStreamers(liste) {
   );
 }
 
-// Fonction de tri
+// Fonction de tri avec ordre asc/desc
 function trierStreamers(liste) {
   const listeCopie = [...liste];
+  const facteur = ordreTri === "asc" ? 1 : -1;
+
   return listeCopie.sort((a, b) => {
-    if (tri === "abonnes") return b.abonnes - a.abonnes;
-    if (tri === "viewers") return b.viewers - a.viewers;
-    if (tri === "nom") return b.pseudo.localeCompare(a.pseudo);
+    if (tri === "abonnes") return (a.abonnes - b.abonnes) * facteur;
+    if (tri === "viewers") return (a.viewers - b.viewers) * facteur;
+    if (tri === "nom") return a.pseudo.localeCompare(b.pseudo) * facteur;
+    if (tri === "pays") return a["pays"].localeCompare(b["pays"]) * facteur;
     return 0;
   });
 }
 
-// Fonction pour afficher les streamers
+// Fonction pour afficher les streamers AVEC pagination
 function afficherStreamers() {
   const streamersFiltres = filtrerStreamers(streamers);
   const streamersTries = trierStreamers(streamersFiltres);
+
   const tbody = document.getElementById("streamer-table-body");
   const noResults = document.getElementById("no-results");
-  const resultsCount = document.getElementById("result-count");
+  const resultsCount = document.getElementById("results-count");
 
-
-  // Mettre à jour le compteur
-  resultsCount.textContent = `${streamersTries.length} streamer(s) trouvé(s)`;
-
-  // Vider le tableau
-  tbody.innerHTML = "";
-
-  // Afficher le message si aucun résultat
+  // Aucun résultat
   if (streamersTries.length === 0) {
+    tbody.innerHTML = "";
     noResults.style.display = "block";
+    resultsCount.textContent = "0 streamer trouvé";
+    const pageInfo = document.getElementById("page-info");
+    if (pageInfo) pageInfo.textContent = "Page 0 sur 0";
     return;
   }
 
   noResults.style.display = "none";
 
-  // Créer les lignes du tableau
-  streamersTries.forEach((streamer, index) => {
+  // Pagination
+  const totalItems = streamersTries.length;
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
+  if (currentPage > totalPages) currentPage = totalPages;
+
+  const start = (currentPage - 1) * itemsPerPage;
+  const end = start + itemsPerPage;
+  const pageItems = streamersTries.slice(start, end);
+
+  // Mettre à jour le compteur global
+  resultsCount.textContent = `${totalItems} streamer(s) trouvé(s)`;
+
+  // Vider le tableau puis remplir uniquement avec pageItems
+  tbody.innerHTML = "";
+  pageItems.forEach((streamer, index) => {
     const tr = document.createElement("tr");
     tr.addEventListener("click", () => ouvrirModal(streamer));
 
+    const rangGlobal = start + index + 1; // rang réel dans le classement
+
     tr.innerHTML = `
-      <td>${getMedaille(index + 1)}</td>
+      <td>${getMedaille(rangGlobal)}</td>
       <td>
         <div class="streamer-row">
           <span class="streamer-avatar">${streamer.avatar}</span>
@@ -100,13 +124,28 @@ function afficherStreamers() {
       </td>
       <td class="abonnes-value">${formaterNombre(streamer.abonnes)}</td>
       <td class="viewers-value">${formaterNombre(streamer.viewers)}</td>
+      <td class="pays-value">${streamer.pays}</td>
     `;
 
     tbody.appendChild(tr);
   });
+
+  // Mettre à jour "Page X sur Y"
+  const pageInfo = document.getElementById("page-info");
+  if (pageInfo) {
+    pageInfo.textContent = `Page ${currentPage} sur ${totalPages}`;
+  }
+
+  // Désactiver les boutons en début/fin
+  const prevBtn = document.getElementById("prev-page");
+  const nextBtn = document.getElementById("next-page");
+  if (prevBtn && nextBtn) {
+    prevBtn.disabled = currentPage === 1;
+    nextBtn.disabled = currentPage === totalPages;
+  }
 }
 
-// Fonction pour ouvrir le modal
+// Fonction pour ouvrir le modal + graphique (version “de base”)
 function ouvrirModal(streamer) {
   streamerSelectionne = streamer;
   const modal = document.getElementById("modal");
@@ -130,6 +169,54 @@ function ouvrirModal(streamer) {
   modalCategorie.textContent = streamer.categorie;
   modalDescription.textContent = streamer.description;
 
+  // 🔹 Partie graphique (config de base)
+  const canvas = document.getElementById("abonnes-chart");
+  console.log("canvas:", canvas);
+  console.log("evolutionAbonnes:", streamer.evolutionAbonnes);
+
+  if (canvas && typeof Chart !== "undefined") {
+    const ctx = canvas.getContext("2d");
+
+    if (abonnesChart) {
+      abonnesChart.destroy();
+    }
+
+    const dataAbonnes = streamer.evolutionAbonnes || [];
+    const labels = ["-5 mois", "-4 mois", "-3 mois", "-2 mois", "-1 mois", "Ce mois"];
+
+    abonnesChart = new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: labels.slice(-dataAbonnes.length),
+        datasets: [
+          {
+            label: "Évolution des abonnés",
+            data: dataAbonnes,
+            borderColor: "#4f46e5",
+            backgroundColor: "rgba(79, 70, 229, 0.2)",
+            tension: 0.3,
+            fill: true,
+            pointRadius: 3,
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          y: {
+            ticks: {
+              callback: (value) => formaterNombre(value),
+            },
+          },
+        },
+        plugins: {
+          legend: { display: false },
+        },
+      },
+    });
+  }
+
   modal.style.display = "flex";
 }
 
@@ -142,7 +229,7 @@ function fermerModal() {
 
 // Fonction pour charger les données depuis data.js
 function chargerStreamers() {
-  if (typeof streamersData !== 'undefined') {
+  if (typeof streamersData !== "undefined") {
     streamers = streamersData;
     afficherStreamers();
   } else {
@@ -160,29 +247,73 @@ function chargerStreamers() {
 
 // Initialisation
 document.addEventListener("DOMContentLoaded", () => {
-  // Charger les données depuis data.json
+  // Charger les données
   chargerStreamers();
 
   // Barre de recherche
   const searchInput = document.getElementById("search-input");
   searchInput.addEventListener("input", (e) => {
     recherche = e.target.value;
+    currentPage = 1;
     afficherStreamers();
   });
 
-  // Boutons de tri
+  // Boutons de tri avec toggle asc/desc + flèche ↑/↓
   const sortButtons = document.querySelectorAll(".sort-btn");
   sortButtons.forEach((btn) => {
+    // Sauvegarde du label de base
+    btn.dataset.sortLabel = btn.textContent;
+
     btn.addEventListener("click", () => {
-      // Retirer la classe active de tous les boutons
-      sortButtons.forEach((b) => b.classList.remove("active"));
-      // Ajouter la classe active au bouton cliqué
+      const nouveauCritere = btn.dataset.sort;
+
+      if (tri === nouveauCritere) {
+        // On reclique sur le même critère → on inverse l'ordre
+        ordreTri = ordreTri === "asc" ? "desc" : "asc";
+      } else {
+        // On change de critère → on passe sur ce critère en desc par défaut
+        tri = nouveauCritere;
+        ordreTri = "desc";
+      }
+
+      // Mettre à jour les classes actives ET le texte (flèche)
+      sortButtons.forEach((b) => {
+        b.classList.remove("active");
+        // Rétablir le label de base sans flèche
+        const baseLabel = b.dataset.sortLabel;
+        if (baseLabel) b.textContent = baseLabel;
+      });
+
       btn.classList.add("active");
-      // Mettre à jour le tri
-      tri = btn.dataset.sort;
+      const baseLabel = btn.dataset.sortLabel || btn.textContent;
+      btn.textContent = baseLabel + (ordreTri === "asc" ? " ↑" : " ↓");
+
+      currentPage = 1;
       afficherStreamers();
     });
   });
+
+  // Pagination : boutons Précédent / Suivant
+  const prevBtn = document.getElementById("prev-page");
+  const nextBtn = document.getElementById("next-page");
+
+  if (prevBtn && nextBtn) {
+    prevBtn.addEventListener("click", () => {
+      if (currentPage > 1) {
+        currentPage--;
+        afficherStreamers();
+      }
+    });
+
+    nextBtn.addEventListener("click", () => {
+      const streamersFiltres = filtrerStreamers(streamers);
+      const totalPages = Math.ceil(streamersFiltres.length / itemsPerPage);
+      if (currentPage < totalPages) {
+        currentPage++;
+        afficherStreamers();
+      }
+    });
+  }
 
   // Modal
   const modal = document.getElementById("modal");
@@ -192,11 +323,9 @@ document.addEventListener("DOMContentLoaded", () => {
   modalBackdrop.addEventListener("click", fermerModal);
   modalClose.addEventListener("click", fermerModal);
 
-  // Fermer avec Escape
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && streamerSelectionne) {
       fermerModal();
     }
   });
 });
-

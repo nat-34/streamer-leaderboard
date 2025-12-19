@@ -117,7 +117,7 @@ Si vous avez déjà quelques notions, vous pouvez passer directement aux parties
 - **Moyen** : Propriété CSS invalide
 - **Complexe** : Problème de cascade et media queries
 
-### Bugs HTML
+### Bugs HTMLrelative
 - **Simple** : Erreur d'ID (typo)
 - **Moyen** : Attribut manquant (bonne pratique)
 - **Complexe** : Balise HTML non fermée
@@ -159,17 +159,17 @@ Si vous avez déjà quelques notions, vous pouvez passer directement aux parties
 Après avoir corrigé tous les bugs, vérifiez que :
 
 - [x] #001 - Le sous-titre ne contient plus de faute de frappe ("meilleurss" → "meilleurs") 
-- [ ] #002 La liste des streamers s'affiche correctement dans le tableau
-- [ ] #003 Le nom du streamer "Seb" est corrigé en "Seb la frite"
-- [ ] #004 La modal box est visible et apparaît au-dessus du contenu 
-- [ ] #005 La colonne des viewers est visible dans le tableau sans avoir à scroller horizontalement
-- [ ] #005 Toutes les colonnes du tableau sont visibles
-- [ ] #006 Sur tablette/desktop, les contrôles (recherche et tri) s'affichent en ligne horizontalement
-- [ ] #006 Sur mobile, les contrôles restent empilés verticalement
-- [ ] #007 Le tri par nom fonctionne correctement (ordre alphabétique A-Z)
-- [ ] #007 Les autres tris (abonnés, viewers) fonctionnent toujours correctement
-- [ ] Aucune erreur dans la console du navigateur
-- [ ] L'application fonctionne correctement sur mobile, tablette et desktop
+- [x] #002 La liste des streamers s'affiche correctement dans le tableau
+- [x] #003 Le nom du streamer "Seb" est corrigé en "Seb la frite"
+- [x] #004 La modal box est visible et apparaît au-dessus du contenu 
+- [x] #005 La colonne des viewers est visible dans le tableau sans avoir à scroller horizontalement
+- [x] #005 Toutes les colonnes du tableau sont visibles
+- [x] #006 Sur tablette/desktop, les contrôles (recherche et tri) s'affichent en ligne horizontalement
+- [x] #006 Sur mobile, les contrôles restent empilés verticalement
+- [x] #007 Le tri par nom fonctionne correctement (ordre alphabétique A-Z)
+- [x] #007 Les autres tris (abonnés, viewers) fonctionnent toujours correctement
+- ] Aucune erreur dans la console du navigateur
+- [x] L'application fonctionne correctement sur mobile, tablette et desktop
 
 ## 📚 Ressources
 

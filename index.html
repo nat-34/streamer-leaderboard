@@ -45,6 +45,7 @@
           <button class="sort-btn active" data-sort="abonnes">Abonnés</button>
           <button class="sort-btn" data-sort="viewers">Viewers</button>
           <button class="sort-btn" data-sort="nom">Nom</button>
+          <button class="sort-btn" data-sort="pays-sans-drapeau">Pays</button>
         </div>
       </div>
 
@@ -68,22 +69,35 @@
                   <span class="eye-icon">👁️</span>
                   Viewers
                 </th>
+                <th>
+                  <span class="pays-icon">🚩</span>
+                  Pays
+                </th>
               </tr>
             </thead>
             <tbody id="streamer-table-body">
               <!-- Les streamers seront insérés ici par JavaScript -->
             </tbody>
           </table>
+
+          <!-- Message aucun résultat -->
           <div id="no-results" class="no-results" style="display: none;">
             Aucun streamer trouvé 😢
           </div>
         </div>
       </div>
 
-      <!-- Compteur de résultats -->
+      <!-- Compteur de résultats (UN SEUL) -->
       <p class="results-count" id="results-count">
         0 streamer(s) trouvé(s)
       </p>
+
+      <!-- Pagination (EN DEHORS de la table) -->
+      <div id="pagination" class="pagination">
+        <button id="prev-page">Précédent</button>
+        <span id="page-info">Page 1 sur 1</span>
+        <button id="next-page">Suivant</button>
+      </div>
     </div>
 
     <!-- Modal de détail -->
@@ -126,9 +140,16 @@
         <div class="modal-description">
           <p id="modal-description"></p>
         </div>
+
+        <!-- Graphique évolution abonnés -->
+        <div class="modal-chart">
+          <canvas id="abonnes-chart"></canvas>
+        </div>
       </div>
     </div>
 
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="data.js"></script>
     <script src="app.js"></script>
   </body>
